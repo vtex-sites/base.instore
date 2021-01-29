@@ -1,0 +1,34 @@
+{
+  "name": "base-in-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Base inStore",
+  "author": "Guilherme Bruzzi",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "gatsby": "^2.26.1",
+    "gatsby-image": "^2.10.0",
+    "gatsby-plugin-emotion": "^5.3.0",
+    "gatsby-plugin-manifest": "^2.11.0",
+    "gatsby-plugin-offline": "^3.9.0",
+    "gatsby-plugin-react-helmet": "^3.9.0",
+    "gatsby-plugin-sharp": "^2.13.3",
+    "gatsby-plugin-sitemap": "^2.11.0",
+    "gatsby-source-filesystem": "^2.10.0",
+    "gatsby-transformer-sharp": "^2.11.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0"
+  }
+}
