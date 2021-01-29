@@ -3,5 +3,6 @@ public/
 dist/
 coverage/
 .vscode/
+.cache/
 
 __generated__/
