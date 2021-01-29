@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  VTEX SFJ minimal starter
 </h1>
 
 ## 🚀 Quick start
