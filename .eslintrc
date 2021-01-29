@@ -1,0 +1,9 @@
+{
+  "extends": ["vtex"],
+  "overrides": [
+    {
+      "files": "**/*.tsx",
+      "extends": ["vtex-react"]
+    }
+  ]
+}
