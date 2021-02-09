@@ -1026,6 +1026,19 @@
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.5.tgz#2c40f81449a4e554e9fc6396910ed4843ec2be50"
   integrity sha512-igX9a37DR2ZPGYtV6suZ6whr8pTFtyHL3K/oLUotxpSVO2ASaprmAe2Dkq7tBo7CRY7MMDrAa9nuQP9/YG8FxQ==
 
+"@emotion/react@^11.1.5":
+  version "11.1.5"
+  resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.1.5.tgz#15e78f9822894cdc296e6f4e0688bac8120dfe66"
+  integrity sha512-xfnZ9NJEv9SU9K2sxXM06lzjK245xSeHRpUh67eARBm3PBHjjKIZlfWZ7UQvD0Obvw6ZKjlC79uHrlzFYpOB/Q==
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+    "@emotion/cache" "^11.1.3"
+    "@emotion/serialize" "^1.0.0"
+    "@emotion/sheet" "^1.0.1"
+    "@emotion/utils" "^1.0.0"
+    "@emotion/weak-memoize" "^0.2.5"
+    hoist-non-react-statics "^3.3.1"
+
 "@emotion/serialize@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@emotion/serialize/-/serialize-1.0.0.tgz#1a61f4f037cf39995c97fc80ebe99abc7b191ca9"
@@ -1037,7 +1050,7 @@
     "@emotion/utils" "^1.0.0"
     csstype "^3.0.2"
 
-"@emotion/sheet@^1.0.0":
+"@emotion/sheet@^1.0.0", "@emotion/sheet@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-1.0.1.tgz#245f54abb02dfd82326e28689f34c27aa9b2a698"
   integrity sha512-GbIvVMe4U+Zc+929N1V7nW6YYJtidj31lidSmdYcWozwoBIObXBnaJkKNDjZrLm9Nc0BR+ZyHNaRZxqNZbof5g==
@@ -1745,6 +1758,11 @@
     lodash.merge "^4.6.2"
     tiny-warning "^1.0.3"
 
+"@vtex/admin-ui-icons@^0.8.8":
+  version "0.8.8"
+  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-icons/-/admin-ui-icons-0.8.8.tgz#0d6220396681da857c061e5def01441fe5b0f408"
+  integrity sha512-KeNK1IilXTSOcFeXfVNfTlrXVzwpUHUidHWzibS6qaHo240sRtehBZfsY9VgltOGylAgT9oIKqkuEUFweYckRg==
+
 "@vtex/admin-ui-system@^0.13.0":
   version "0.13.0"
   resolved "https://registry.yarnpkg.com/@vtex/admin-ui-system/-/admin-ui-system-0.13.0.tgz#5f7f1d128264f9a498b497c51275fe8661b581fa"
@@ -1799,12 +1817,14 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/gatsby-theme-instore-core@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.1.tgz#53a5cebcaccf2469ad4f4482e2e4a35fcf5372b4"
-  integrity sha512-fhJxjlgAZcIFBXnpVSp+RmANw30ScKyMGJR9e4mh6kkGZ9De4CZC9cEBhQc+M2+hmtqkp/Y2ejGzS8NH7pHecg==
+"@vtexlab/gatsby-theme-instore-core@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.3.tgz#8bb5474cb31a78793950c0e66273199ec6b819eb"
+  integrity sha512-Bo9+3mQStMpSwwP7QfVE8qTXlVZIZoxbuoH5ZnJsN2IRVuKDmRFtZmzWoCLMVpy3/jDbtnmdGPs5DzVQ4yE6Nw==
   dependencies:
+    "@emotion/react" "^11.1.5"
     "@vtex/admin-ui" "^0.81.0"
+    "@vtex/admin-ui-icons" "^0.8.8"
     gatsby-plugin-offline "^3.10.0"
     react "^17.0.1"
     react-dom "^17.0.1"
@@ -6519,7 +6539,7 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^3.3.0:
+hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.1:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
