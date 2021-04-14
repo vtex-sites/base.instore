@@ -14,8 +14,6 @@
     export INSTORE_NPM_TOKEN=VALUE
     ```
 
-    Then replace the `VALUE` of `VTEX_STORE_ID=VALUE` on .env.development and .env.production with the VTEX tenant this repo represents.
-
     Make sure yarn is installed on your machine and run inside this repository on your terminal:
 
     ```shell
