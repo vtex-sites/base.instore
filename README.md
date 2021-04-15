@@ -1,39 +1,38 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  VTEX SFJ minimal starter
+  VTEX inStore SFJ minimal starter
 </h1>
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Setup env**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+    Get the value of INSTORE_NPM_TOKEN with VTEX.
+
+    Set on your local .rc file like `~/.bashrc` or `~/.zshrc` or `~/.fishrc`:
 
     ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    export INSTORE_NPM_TOKEN=VALUE
+    ```
+
+    Make sure yarn is installed on your machine and run inside this repository on your terminal:
+
+    ```shell
+    yarn install
     ```
 
 2.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
-
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    yarn start
     ```
 
 3.  **Open the code and start customizing!**
 
     Your site is now running at http://localhost:8000!
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+    Edit any component on `src` to see your site update in real-time!
 
-4.  **Learn more**
+4.  **Learn more about Gatsby**
 
     - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
