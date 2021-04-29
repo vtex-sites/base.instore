@@ -1,47 +1,58 @@
-<h1 align="center">
-  VTEX inStore SFJ minimal starter
-</h1>
+# VTEX inStore Dev
 
-## 🚀 Quick start
+This project is to launch a new tenant using the instore-core gatsby plugins.
 
-1.  **Setup env**
+## Setup
 
-    Get the value of INSTORE_NPM_TOKEN with VTEX.
+```bash
+yarn
+```
 
-    Set on your local .rc file like `~/.bashrc` or `~/.zshrc` or `~/.fishrc`:
+PS.: must have npm permission to use private @vtexlab packages
 
-    ```shell
-    export INSTORE_NPM_TOKEN=VALUE
-    ```
+## Run
 
-    Make sure yarn is installed on your machine and run inside this repository on your terminal:
+```bash
+yarn start
+```
 
-    ```shell
-    yarn install
-    ```
+## Build
 
-2.  **Start developing.**
+```bash
+yarn build
+```
 
-    ```shell
-    yarn start
-    ```
+To test build:
 
-3.  **Open the code and start customizing!**
+```bash
+yarn serve
+```
 
-    Your site is now running at http://localhost:8000!
+## Test
 
-    Edit any component on `src` to see your site update in real-time!
+```bash
+yarn test
+```
 
-4.  **Learn more about Gatsby**
+## To launch another version
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```
+Open a PR on this repo (probably updating @vtexlab/gatsby-theme-instore-core version)
+```
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Cypress
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Setup cypress.json with the correct baseUrl (change from base.vtexlocal to the "name of your tenant".vtexlocal)
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Declare the environment variables on your terminal:
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```bash
+export CYPRESS_DEFAULT_LOGIN='VALUE'
+export CYPRESS_DEFAULT_PASSWORD='VALUE'
+```
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+And run Cypress locally with:
+
+```bash
+yarn cypress:open
+```

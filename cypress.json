@@ -1,0 +1,8 @@
+{
+  "baseUrl": "http://base.vtexlocal.com.br:8000",
+  "userAgent": "inStore/2.16.7 Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Mobile Safari/537.36",
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  }
+}
