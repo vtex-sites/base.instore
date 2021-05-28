@@ -21,7 +21,7 @@
     "lint:prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,gql,json,yml,md}\""
   },
   "dependencies": {
-    "@vtexlab/gatsby-theme-instore-core": "^0.0.1",
+    "@vtexlab/gatsby-theme-instore-core": "0.0.30",
     "gatsby": "^2.32.2"
   },
   "devDependencies": {
