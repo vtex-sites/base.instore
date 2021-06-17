@@ -1,5 +1,7 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "encrypted": {
+    "npmToken": "NW5EP9TaaE2EnLv04YOucTPkrD3vc9NbMZ7dBTswx+sYDkkX63RL3Iav/QstwQmMdCMWEW6BhI/SHIykQQS7nydOp1bBJ1shfT26Lya2RO5YRjc1oZH/ZZa0Zl5g/+IZiIorejoM44vl70O/+OgYqG0ciAh7kBOQVFcxJ7JV+1xWgcOeSn+uaApuHAxa8lV9gVXIVlU3eLB6AikBf/CSpDBRHeHTiwFAmbXy7LWZqSdxagemopPVgay3QalHumPypuAvmcmSsJbzSyLpNV+R76aZKYF+s4kULQo7WLmWfXIip0NyWPLJZE0B7p+DWPxwlCKJ18GnJ5IKML0D2KJmTw=="
+  },
+  "extends": ["vtex-instore-sites"]
 }
