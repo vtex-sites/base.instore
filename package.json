@@ -11,7 +11,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "yarn develop",
-    "build": "gatsby build",
+    "build": "NODE_OPTIONS='--max-old-space-size=4096' gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "yarn lint:prettier",
