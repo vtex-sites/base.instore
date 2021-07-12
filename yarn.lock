@@ -3799,10 +3799,10 @@
     vtex-tachyons "^3.2.2"
     whatwg-fetch "2.0.4"
 
-"@vtexlab/gatsby-theme-instore-core@0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.1.4.tgz#6530c2c1bae40ebaeb5e29f70bf463766723910f"
-  integrity sha512-uUJLFNPX31IpRtip0tpK3353xOGqM5ax2sU8521US1h7FUEi4g4miWQtbG3ksouXVwgu9AKuPYHe6XxC0lXkVQ==
+"@vtexlab/gatsby-theme-instore-core@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.1.5.tgz#8d1631a15d21deea1c54d728193b04ac3edf87e0"
+  integrity sha512-cX8fm/HnbatRz5qV6EgoR0NxI3TEuBHV3/FEU3Q7ImXi0Ey1o/MaYFObHU/dgDmk/s1Bd2mUbteZeXqqA/cJ4A==
   dependencies:
     "@babel/core" "^7.12.13"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -14792,6 +14792,7 @@ react-input-autosize@^2.2.1:
     prop-types "^15.5.8"
 
 "react-intl-legacy@npm:react-intl@2.9.0", react-intl@^2.7.2:
+  name react-intl-legacy
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.9.0.tgz#c97c5d17d4718f1575fdbd5a769f96018a3b1843"
   integrity sha512-27jnDlb/d2A7mSJwrbOBnUgD+rPep+abmoJE511Tf8BnoONIAUehy/U1zZCHGO17mnOwMWxqN4qC0nW11cD6rA==
