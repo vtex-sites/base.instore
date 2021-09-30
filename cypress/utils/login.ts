@@ -3,14 +3,16 @@ export const DEFAULT_PASSWORD = Cypress.env('DEFAULT_PASSWORD')
 
 export function loginWithRobot(
   login = DEFAULT_LOGIN,
-  password = DEFAULT_PASSWORD
+  password = DEFAULT_PASSWORD,
+  validateLoginWorked = true
 ) {
-  cy.get('[data-testId=login-email]').type(login)
-  cy.get('[data-testId=login-password]').type(password)
-  cy.contains('Confirm').click()
+  cy.get('[data-testId=login-email]').clear().type(login)
+  cy.get('[data-testId=login-password]').clear().type(password)
+  cy.contains(/Entrar|Login/).click()
 
-  cy.url({ timeout: 10000 }).should(
-    'eq',
-    `${Cypress.config().baseUrl}/instore/`
-  )
+  if (validateLoginWorked) {
+    cy.url({ timeout: 10000 })
+      .should('eq', `${Cypress.config().baseUrl}/instore/`)
+      .should('eq', `${Cypress.config().baseUrl}/instore/`)
+  }
 }
