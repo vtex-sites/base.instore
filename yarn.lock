@@ -3996,10 +3996,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^5.0.6"
 
-"@vtex/lighthouse-config@0.373.24":
-  version "0.373.24"
-  resolved "https://registry.yarnpkg.com/@vtex/lighthouse-config/-/lighthouse-config-0.373.24.tgz#ff06837c8a3247b3d97c74e7cb86386cb90f85e8"
-  integrity sha512-gAysxZ+xMmoew8jTlui57pju8zEC+QxD14FfvVkrT5uC3Y8Vip4ajWxmM9lUlkIlzbD0BjenwSzrfniTERu3Og==
+"@vtex/lighthouse-config@^1.1.15":
+  version "1.1.15"
+  resolved "https://registry.yarnpkg.com/@vtex/lighthouse-config/-/lighthouse-config-1.1.15.tgz#81626fcd6554564a62013a1b011ec6644c36b9ea"
+  integrity sha512-VTWnchzoPy6eoaUYNNLKW1QTWRutoFTACmL/5be+DceNTHaOmHFfm96/1JsW+ZnStOfiFxr0bEyetUn68LD30Q==
 
 "@vtex/phone@^4.8.0", "@vtex/phone@^4.8.3":
   version "4.10.1"
