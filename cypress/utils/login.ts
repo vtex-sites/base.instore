@@ -11,8 +11,9 @@ export function loginWithRobot(
   cy.contains(/Entrar|Login/).click()
 
   if (validateLoginWorked) {
-    cy.url({ timeout: 10000 })
-      .should('eq', `${Cypress.config().baseUrl}/instore/`)
-      .should('eq', `${Cypress.config().baseUrl}/instore/`)
+    cy.url({ timeout: 10000 }).should(
+      'eq',
+      `${Cypress.config().baseUrl}/instore/`
+    )
   }
 }
