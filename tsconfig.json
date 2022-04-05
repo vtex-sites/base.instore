@@ -1,3 +1,6 @@
 {
-  "extends": "@vtex/tsconfig"
+  "extends": "@vtex/tsconfig",
+  "compilerOptions": {
+    "noEmit": true
+  }
 }

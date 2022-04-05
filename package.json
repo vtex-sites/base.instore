@@ -19,7 +19,7 @@
     "lint": "yarn lint:eslint && yarn lint:prettier",
     "lint:eslint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:eslint-fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix --max-warnings 0",
-    "lint:prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,gql,json,yml,md}\"",
+    "lint:prettier": "prettier --check \"**/*.{js,jsx,ts,tsx,gql,json,yml,md}\"",
     "cypress:open": "cypress open"
   },
   "dependencies": {
