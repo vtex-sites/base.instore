@@ -3,7 +3,7 @@ import { DEFAULT_LOGIN, loginWithRobot } from '../../utils/login'
 
 describe('home', () => {
   beforeEach(() => {
-    cy.visit('/instore')
+    cy.visit('/instore/login')
 
     cy.title().should('eq', 'VTEX inStore')
 
