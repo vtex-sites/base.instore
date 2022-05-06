@@ -2918,6 +2918,13 @@
   resolved "https://registry.yarnpkg.com/@types/react-adaptive-hooks/-/react-adaptive-hooks-0.0.1.tgz#5f57a741ef1c78134537872e566342387f33c0fe"
   integrity sha512-Wbmba2tx/pTxNKZGAAP4I+yNjhNV1lyQixD9gbEC+7S1Tinvh4QQp6bEaNNnkvuMqZx4ZqtqbR9EFsWiksj41g==
 
+"@types/react-dom@^18.0.0":
+  version "18.0.3"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.0.3.tgz#a022ea08c75a476fe5e96b675c3e673363853831"
+  integrity sha512-1RRW9kst+67gveJRYPxGmVy8eVJ05O43hg77G2j5m76/RFJtMbcfAs2viQ2UNsvvDg8F7OfQZx8qQcl6ymygaQ==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-redux@^7.1.20":
   version "7.1.23"
   resolved "https://registry.yarnpkg.com/@types/react-redux/-/react-redux-7.1.23.tgz#3c2bb1bcc698ae69d70735f33c5a8e95f41ac528"
@@ -3352,15 +3359,16 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@2.171.7":
-  version "2.171.7"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.171.7.tgz#2720d632f89115aacb931f9472c9a40dee6a43ba"
-  integrity sha512-MYlKkAG7O/7wwEt3MKa/mr3LwlsmHz7yd4dp5II1l/wsGjlff8DeghxSNRxuQmZ76EvPmTdbD3bc0BKwQXMu2w==
+"@vtexlab/checkout-instore@2.175.0":
+  version "2.175.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.175.0.tgz#ef2fae0d38706b310ef9fbf95dd65d54a93d62c0"
+  integrity sha512-gJ5gLdoMmV8deE3/MQ6cYkd13uRtZJNnoOI/yTUTvC/tIN9rBv0dXRAAwoxtLcVghrlDZJAfKcqHju6OH/jNmA==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
     "@react-pdf/renderer" "^2.0.13"
     "@types/react-adaptive-hooks" "^0.0.1"
+    "@types/react-dom" "^18.0.0"
     "@vtex/address-form" "^3.5.4"
     "@vtex/admin-ui" "^0.119.0"
     "@vtex/axios-concurrent-retry" "^4.0.10"
@@ -3439,10 +3447,10 @@
     vtex-tachyons "^3.2.2"
     whatwg-fetch "2.0.4"
 
-"@vtexlab/gatsby-theme-instore-core@0.9.7":
-  version "0.9.7"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.9.7.tgz#a56dd5fe73ef83f480b06f84d8619ec6a0718ad6"
-  integrity sha512-Ys4ID9fmqEI30q0ui6fiIVjp9yvyM8ughDZdaU3pUXLmdvFIE9K4hNv8liSNJJgwiAdF/zmFSi4JFTdB2AIXNg==
+"@vtexlab/gatsby-theme-instore-core@0.9.8":
+  version "0.9.8"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.9.8.tgz#3cb6224e6c79b4d14a039c5424e72fb4c899f764"
+  integrity sha512-56mRLEi19Fl3Qfk9b40ggapr/idwqVSwfO5bwr7mrQh+nUq4im9Mam+dqH9uPWgZfzsUmivZMF9pS6hsGfMpoQ==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3454,7 +3462,7 @@
     "@vtex/gatsby-plugin-admin-ui" "^0.6.6"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/gatsby-plugin-nginx" "^1.3.3"
-    "@vtexlab/checkout-instore" "2.171.7"
+    "@vtexlab/checkout-instore" "2.175.0"
     assert "^2.0.0"
     babel-plugin-relay "^10.1.3"
     browserify-zlib "^0.2.0"
