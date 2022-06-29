@@ -3107,6 +3107,14 @@
   resolved "https://registry.yarnpkg.com/@vercel/webpack-asset-relocator-loader/-/webpack-asset-relocator-loader-1.7.2.tgz#0210abd8d53b2799d53156dd0c18a4ef4e3b51cb"
   integrity sha512-pdMwUawmAtH/LScbjKJq/y2+gZFggFMc2tlJrlPSrgKajvYPEis3L9QKcMyC9RN1Xos4ezAP5AJfRCNN6RMKCQ==
 
+"@vimeo/player@^2.17.0":
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/@vimeo/player/-/player-2.17.1.tgz#613f722aaafc18bb7dad73c58f1b9ad3e3996b2a"
+  integrity sha512-M8uMYiOwFkqD070/pO/CuRmwKvnHBmEZKckt5C2tAaMhlldzui+lUC5zMFzO0RDPmIXwg1WdDxaJnzuic6ll/A==
+  dependencies:
+    native-promise-only "0.8.1"
+    weakmap-polyfill "2.0.4"
+
 "@vtex/address-form@2.5.6":
   version "2.5.6"
   resolved "https://registry.yarnpkg.com/@vtex/address-form/-/address-form-2.5.6.tgz#93fcd41479a9e09f1015b7edf50a74deb53928fb"
@@ -3359,10 +3367,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@2.186.0":
-  version "2.186.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.186.0.tgz#9d4ad36506e81aa53f2d7fb82f0e1990fac72a2f"
-  integrity sha512-fFG0BPAfOZXnbLATWHFA1TQgIEywGZCqGTTrU++1Ow2j4JyJ56/Zgy3tjZBU0ZMPrJxDFiSuMnAUpbq2YEvYfw==
+"@vtexlab/checkout-instore@2.187.2":
+  version "2.187.2"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.187.2.tgz#180849d375e3b84e2d5dd99bcf39cd7e854db714"
+  integrity sha512-yaqiksuJWvj+5PAdPvCB9tXUNRljUD7gktJKnp3uDM4dQN5kDU15B7OQYGuXdlESclskdhavaMlMGp+0jOyTiQ==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -3447,10 +3455,10 @@
     vtex-tachyons "^3.2.2"
     whatwg-fetch "2.0.4"
 
-"@vtexlab/gatsby-theme-instore-core@0.10.3":
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.10.3.tgz#638a7cc948aeb6204cdbc997a540ce0a47bf47f0"
-  integrity sha512-8J0tIY02N4sZU8gbK6qXw88u/RmUrzHWMl9s1+pNt418xZW3KSPIDL59koirDawDZXRcXxTYHAhSF/4n+v9i3Q==
+"@vtexlab/gatsby-theme-instore-core@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.11.0.tgz#f6b8b93a09a0e3102de5b62df413600c17c1111a"
+  integrity sha512-77ZsB+921DFTbRAiAvGnh6FzF1YGrkaHv9vXmWV4G4vtKdW4td64fcm8DZmrSnao8A7HxQ0wLFqOrM3/jY7pDw==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3458,11 +3466,12 @@
     "@emotion/react" "^11.9.0"
     "@reduxjs/toolkit" "^1.5.0"
     "@svgr/webpack" "^5.5.0"
+    "@vimeo/player" "^2.17.0"
     "@vtex/admin-ui" "^0.119.0"
     "@vtex/gatsby-plugin-admin-ui" "^0.6.6"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/gatsby-plugin-nginx" "^1.3.3"
-    "@vtexlab/checkout-instore" "2.186.0"
+    "@vtexlab/checkout-instore" "2.187.2"
     assert "^2.0.0"
     babel-plugin-relay "^10.1.3"
     browserify-zlib "^0.2.0"
@@ -12100,6 +12109,11 @@ napi-build-utils@^1.0.1:
   resolved "https://registry.yarnpkg.com/napi-build-utils/-/napi-build-utils-1.0.2.tgz#b1fddc0b2c46e380a0b7a76f984dd47c41a13806"
   integrity sha512-ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==
 
+native-promise-only@0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/native-promise-only/-/native-promise-only-0.8.1.tgz#20a318c30cb45f71fe7adfbf7b21c99c1472ef11"
+  integrity sha512-zkVhZUA3y8mbz652WrL5x0fB0ehrBkulWT3TomAQ9iDtyXZvzKeEA6GPxAItBYeNYl5yngKRX612qHOhvMkDeg==
+
 native-request@^1.0.5:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/native-request/-/native-request-1.1.0.tgz#acdb30fe2eefa3e1bc8c54b3a6852e9c5c0d3cb0"
@@ -17179,6 +17193,11 @@ watchpack@^2.3.1:
   dependencies:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
+
+weakmap-polyfill@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/weakmap-polyfill/-/weakmap-polyfill-2.0.4.tgz#bcc301e4c8eb4eda3e406f08f1a691093e407884"
+  integrity sha512-ZzxBf288iALJseijWelmECm/1x7ZwQn3sMYIkDr2VvZp7r6SEKuT8D0O9Wiq6L9Nl5mazrOMcmiZE/2NCenaxw==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
