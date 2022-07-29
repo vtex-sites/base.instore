@@ -3367,10 +3367,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@2.188.2":
-  version "2.188.2"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.188.2.tgz#a207ce4257c5488e26220cbc4fbe81be401b927c"
-  integrity sha512-rVjx8G4iucfdDqWEbtqLNSBnnkJlwcVaUqFEXrWmtdgDQSHamZZkVA1/nfWxzJzWAqT9tZl1QPHVG8JZp8FAhg==
+"@vtexlab/checkout-instore@2.188.13":
+  version "2.188.13"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.188.13.tgz#b7c3bade01874ddb01e4a31cd42bdf94becb1113"
+  integrity sha512-g9/J6FrJd2/6o4phag00f+bggTb7WnOP4Uga8/hbEfYYfbWBUS3WEv/VoShM3bA15ARQDAhAfLxrBbB/NVvexA==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -3455,10 +3455,10 @@
     vtex-tachyons "^3.2.2"
     whatwg-fetch "2.0.4"
 
-"@vtexlab/gatsby-theme-instore-core@0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.12.0.tgz#59e62d5d6d5933508fddcbae3a9933fb6ed298c1"
-  integrity sha512-18eQmobPv1kh5j6waNr9a9NaJWw+h4TFC8GVBwPphD5YHjG+ad7dZC18CCAuN1TVCQRPJlab3eaqW2Ih9UfFWA==
+"@vtexlab/gatsby-theme-instore-core@0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.13.0.tgz#5f804830ad6de7adfc0ee89e931692e9a907b7e4"
+  integrity sha512-4ErwDQSFCDr/4fXIWrsmb6W09V1sbtCRBEnMGUSHax1fnqBxaFH/jDtbTTyJLsrZuivtR220j9rkbXIMYoYt8w==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3472,7 +3472,7 @@
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/gatsby-plugin-nginx" "^1.3.3"
     "@vtex/phone" "^4.10.5"
-    "@vtexlab/checkout-instore" "2.188.2"
+    "@vtexlab/checkout-instore" "2.188.13"
     assert "^2.0.0"
     babel-plugin-relay "^10.1.3"
     browserify-zlib "^0.2.0"
