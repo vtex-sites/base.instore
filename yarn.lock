@@ -3407,10 +3407,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@2.193.4":
-  version "2.193.4"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.193.4.tgz#48d0f292e25b5da2ff35ac3f17fdef25dd222617"
-  integrity sha512-rlk+ZunNm8Iq1VcIFLnndGrUjndjkz22ip0T9lRt/AbR6LWntgh2t2nae/l7bsSN2JFhE528YEk5kahD39HsNA==
+"@vtexlab/checkout-instore@2.193.6":
+  version "2.193.6"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.193.6.tgz#661083979aa185c6ddef498da229013f369aeea9"
+  integrity sha512-bFkl+Ms/ssljd71rNpN6pQYwdbgnMs3ZsRXnd9EE4Sj/sycMnXSo6EQs1KKtlFtrC2XCd7/s+wfuHBVqq/eKxQ==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -3464,7 +3464,7 @@
     object-hash "^1.3.1"
     pino "^6.11.3"
     pino-pretty "^4.5.0"
-    pino-splunk-events "^0.0.10-2"
+    pino-splunk-events "^0.0.11"
     print-js "^1.6.0"
     promise.prototype.finally "^3.1.2"
     qrcode.react "^1.0.1"
@@ -3502,10 +3502,10 @@
     whatwg-fetch "2.0.4"
     yup "^0.32.11"
 
-"@vtexlab/gatsby-theme-instore-core@0.18.3":
-  version "0.18.3"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.18.3.tgz#3d0e2b9d2d4e3eed5cf42225c3f843b0b57d276b"
-  integrity sha512-VUeeTCHUiLXrE9E0N7jolxYNX0V8qq3TB0OUVgKrQIVXFg4PjOPd6ItQC/vE8xsBxF0JNOmSr+jKT0pdKYa/Sg==
+"@vtexlab/gatsby-theme-instore-core@0.18.4":
+  version "0.18.4"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.18.4.tgz#c3d59315ab9569a312946626cd46ff738af59784"
+  integrity sha512-+oxifozlD3fWhsOrNgyCic3URsR+2mJY10GFZnDBZFcEfv873uYPKIDLtoJdlAX8pRQlkyG9gM2WnZXDUl5Cnw==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3520,7 +3520,7 @@
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/gatsby-plugin-nginx" "^1.3.3"
     "@vtex/phone" "^4.10.5"
-    "@vtexlab/checkout-instore" "2.193.4"
+    "@vtexlab/checkout-instore" "2.193.6"
     assert "^2.0.0"
     babel-plugin-relay "^10.1.3"
     browserify-zlib "^0.2.0"
@@ -13110,10 +13110,10 @@ pino-pretty@^4.5.0:
     split2 "^3.1.1"
     strip-json-comments "^3.1.1"
 
-pino-splunk-events@^0.0.10-2:
-  version "0.0.10-2"
-  resolved "https://registry.yarnpkg.com/pino-splunk-events/-/pino-splunk-events-0.0.10-2.tgz#1accb43eb948e80f227a60c62ed2718ffcd5b6c3"
-  integrity sha512-+i0UlBho9nHr1h//P8f3rjkQaOBBc+CTY0z8XOohSzm6w7JS28iYl4M4GSPl6BoFe9G2uJtVpzW+j+qYAcG69w==
+pino-splunk-events@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/pino-splunk-events/-/pino-splunk-events-0.0.11.tgz#778dac707dd1d51f0e8fffec9900a8290315a40d"
+  integrity sha512-inArB3BPDg9DHmrGKwFxS0sVcEnOPsNuqMrjXFJ6YHZqIzzAWyfBng0MOOpTDh3Jd5ln0uUjOgpOF4ESRmV4yw==
   dependencies:
     "@oclif/command" "^1.8.0"
     "@oclif/errors" "^1.3.4"
