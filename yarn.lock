@@ -3541,10 +3541,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@2.194.0":
-  version "2.194.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.194.0.tgz#5957bb99d9835e23078d1a7bcb71e6988f736f81"
-  integrity sha512-bMSoli34h4elPo6iCraQQPAWnNj6HB4O2uYywlV1fAPG3hH2PDuVWZa3TgWCP7JXSKsXdx4T4yBfSa0h1rIhOQ==
+"@vtexlab/checkout-instore@2.196.0":
+  version "2.196.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.196.0.tgz#b55268f582d8235901287b66063adc26ffd8a5a9"
+  integrity sha512-UQIQtX7b62gWZO/lOPClg2tyJd0BTe+uY82jGe6VREZwkF5DnsrCIKZUa+YB8CMcjU9zD+nWGazq0OFGk5zgHg==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -3636,10 +3636,10 @@
     whatwg-fetch "2.0.4"
     yup "^0.32.11"
 
-"@vtexlab/gatsby-theme-instore-core@0.19.0":
-  version "0.19.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.19.0.tgz#a55722fc48b240b5cabfb93b7976beb1ab6e6f6f"
-  integrity sha512-Apuwk48WQelzoi6LwWOIl0a1g+ccOoTYIyFvsPhz6xbVLCIKbvBHshRgMXM1XPWEVBA1oSfKfe1DMt3dCxku1g==
+"@vtexlab/gatsby-theme-instore-core@0.20.0":
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.20.0.tgz#baddea3fc57a95ba76ceb19509bc64bb7f47fc3a"
+  integrity sha512-WOH1arLvndHjpfn08MzlTpUgf3iQZC9qPuxO292ch4qX4/bX5fexSV229BuiOkIT5z0vlxTz2lN1S+xNYEqzFg==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3655,7 +3655,7 @@
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/gatsby-plugin-nginx" "^1.3.3"
     "@vtex/phone" "^4.10.5"
-    "@vtexlab/checkout-instore" "2.194.0"
+    "@vtexlab/checkout-instore" "2.196.0"
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
     babel-plugin-relay "^10.1.3"
