@@ -3533,10 +3533,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@2.200.2":
-  version "2.200.2"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.200.2.tgz#509e7e6bf88452fcffded0e468f1b6ca9251d0a9"
-  integrity sha512-9Rc08za+7QhBYYYliT7HC5UyfKadltmuFzAYb8sxBG19hNeb67kqcIjKD0p4xMHW1sMoWaQaU8H/cqHW0OgB7Q==
+"@vtexlab/checkout-instore@2.201.1":
+  version "2.201.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.201.1.tgz#3a8ede9f83a66785e78d627f07232cf628c83740"
+  integrity sha512-jgZ8nbiB1tWpwuAkhypSt5OwVC0KoS5eSulU0lrLxgeAOH0gfsdIDaspNnQLakGGB7/wos9NZ12ruZvzmbbgpA==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -3550,6 +3550,7 @@
     "@vtex/axios-concurrent-retry" "^4.0.10"
     "@vtex/butik" "^1.3.6"
     "@vtex/delivery-packages" "2.18.0"
+    "@vtex/diagnostics-web" "^0.3.1"
     "@vtex/estimate-calculator" "^1.1.0"
     "@vtex/evidence-client-js" "^2.1.1"
     "@vtex/phone" "^4.8.3"
@@ -3558,11 +3559,13 @@
     "@vtex/styleguide" "^9.145.0"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/product-ops-utils" "^0.1.0"
+    abortcontroller-polyfill "^1.7.5"
     asap "^2.0.5"
     axios "^0.18.0"
     base64-url "^2.2.0"
     classnames "^2.2.5"
     clean-css "^4.2.3"
+    cockatiel "2.0.2"
     connected-react-router "^6.9.1"
     dexie "^3.0.3"
     events "^1.1.1"
@@ -3628,18 +3631,18 @@
     whatwg-fetch "2.0.4"
     yup "^0.32.11"
 
-"@vtexlab/gatsby-plugin-instore-nginx@0.24.0":
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-instore-nginx/-/gatsby-plugin-instore-nginx-0.24.0.tgz#58cd4526f343dea553795d5f7a5814bc30c35b8a"
-  integrity sha512-yTb9TTMVsrVsAdjIk2OLcrzH7K8CvqV2ES19G0H3EbQ8D98jC20bH/wGKRjIzhMmP0CQMBL24146wUtMUdOCkQ==
+"@vtexlab/gatsby-plugin-instore-nginx@0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-instore-nginx/-/gatsby-plugin-instore-nginx-0.25.0.tgz#f606556882cbc1ea901d32448c6c1eb673e6207e"
+  integrity sha512-PzumqKMPWMern9MW825vUKaQnCmeWa2BVT8u4TLPcmVhKNimz4rCQQo7IEwyWCftwkxlsOay3rGtxIJMdG+cLA==
   dependencies:
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@0.24.6":
-  version "0.24.6"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.24.6.tgz#a12d237a788c7082f4cb45c73fb588b574fe7042"
-  integrity sha512-t1IGmbCDNtNIUdrwdH+TBCx4GqkxY0lX1fUXspy9TYreslVxy7AkpKHMP8GcZvz/QD724gD+BK6TsaLj9TMIfA==
+"@vtexlab/gatsby-theme-instore-core@0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.25.0.tgz#fd2c828baf71b780209c523d0221c52f515f1bb1"
+  integrity sha512-lsj3kMBXhIOR5NrbG3RQmbtPBmbV3ZSlPIswByzjwmTY82zvQQiD9P2obTVDZZDVg9dVzd0EQ9PECpE1fYex0w==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3654,8 +3657,8 @@
     "@vtex/gatsby-plugin-admin-ui" "^0.6.6"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.10.5"
-    "@vtexlab/checkout-instore" "2.200.2"
-    "@vtexlab/gatsby-plugin-instore-nginx" "0.24.0"
+    "@vtexlab/checkout-instore" "2.201.1"
+    "@vtexlab/gatsby-plugin-instore-nginx" "0.25.0"
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
     babel-plugin-relay "^10.1.3"
@@ -3939,6 +3942,11 @@ abortcontroller-polyfill@^1.7.3:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/abortcontroller-polyfill/-/abortcontroller-polyfill-1.7.3.tgz#1b5b487bd6436b5b764fd52a612509702c3144b5"
   integrity sha512-zetDJxd89y3X99Kvo4qFx8GKlt6GsvN3UcRZHwU6iFA/0KiOmhkTVhe8oRoTBiTVPZu09x3vCra47+w8Yz1+2Q==
+
+abortcontroller-polyfill@^1.7.5:
+  version "1.7.5"
+  resolved "https://registry.yarnpkg.com/abortcontroller-polyfill/-/abortcontroller-polyfill-1.7.5.tgz#6738495f4e901fbb57b6c0611d0c75f76c485bed"
+  integrity sha512-JMJ5soJWP18htbbxJjG7bG6yuI6pRhgJ0scHHTfkUjf6wjP912xZWvM+A4sJK3gqd9E8fcPbDnOefbA9Th/FIQ==
 
 abs-svg-path@^0.1.1:
   version "0.1.1"
@@ -5675,6 +5683,11 @@ coa@^2.0.2:
     "@types/q" "^1.5.1"
     chalk "^2.4.1"
     q "^1.1.2"
+
+cockatiel@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/cockatiel/-/cockatiel-2.0.2.tgz#b8bc06df324dd1c769833c4d91478eb1d5519b4f"
+  integrity sha512-ehw7t3twohGiMTxARX0AcFiUxndXLhnIBWbnRnHtfde2jRywlPpPB/o3s9YSptXPj6tkOG0fzET4CUUx4GIpEg==
 
 cockatiel@3.0.0-anyengine.0:
   version "3.0.0-anyengine.0"
