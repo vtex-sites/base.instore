@@ -3533,10 +3533,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@2.205.3":
-  version "2.205.3"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.205.3.tgz#2635b528915c07c43425437d87bc5678b809c6a6"
-  integrity sha512-C+1Hlo+30WfTf0lxEnSDcinvj6m2GiTnEJ7hKa4bAQPXmtrHeXlLhPGg3QzdjuHhNGF64/3vqB8kJNiS5U8NpA==
+"@vtexlab/checkout-instore@2.205.4":
+  version "2.205.4"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.205.4.tgz#b349699e8eaefbcf629724774127f53f0572d2bf"
+  integrity sha512-HRuSa4uR4Z9ep2aChekCynTvkipm8fgePVmis5Du9t2gAmKUYpO8DLLa002NjxZUVCPT9Efc/nMeSIqSIt8Nag==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -3639,10 +3639,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@0.36.7":
-  version "0.36.7"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.36.7.tgz#6d31d1974e16f9781d74e05c56446a130de4ea67"
-  integrity sha512-D3pjDalECZkkl5KIlynsCAI3YpdLELhfYtHZfiCXrBJPpqQ97sii7vMY7+Z9d9M4lm3Gsoidbhcrx0+a3T2UOA==
+"@vtexlab/gatsby-theme-instore-core@0.36.8":
+  version "0.36.8"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.36.8.tgz#50c2fbcabcc69020f662ea9c47291191acaa939d"
+  integrity sha512-55Tx4Fv7c7CtJWCD9QnOK3JY5ySG98JIamMMjharjVYDBWC6ckTDMGQUDAbWfQPXFnhGtxK55cmoz7KUsOvRbg==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3657,7 +3657,7 @@
     "@vtex/gatsby-plugin-admin-ui" "^0.6.6"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.10.5"
-    "@vtexlab/checkout-instore" "2.205.3"
+    "@vtexlab/checkout-instore" "2.205.4"
     "@vtexlab/gatsby-plugin-instore-nginx" "0.36.0"
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
