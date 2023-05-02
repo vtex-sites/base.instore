@@ -3631,18 +3631,18 @@
     whatwg-fetch "2.0.4"
     yup "^0.32.11"
 
-"@vtexlab/gatsby-plugin-instore-nginx@0.38.0":
-  version "0.38.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-instore-nginx/-/gatsby-plugin-instore-nginx-0.38.0.tgz#7e6c8448044f67f41ef6a580707ecacbf656f8cd"
-  integrity sha512-Aypxuw521nnjkuK5HkSvXhC/fSpqOqBvgH3D542mI07Y/jv47nlwM8WC4lNX6MeATOe7WQVaxeWSVy2/KvmRpw==
+"@vtexlab/gatsby-plugin-instore-nginx@0.39.0":
+  version "0.39.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-instore-nginx/-/gatsby-plugin-instore-nginx-0.39.0.tgz#db92dd6144cb3ab5294c45be6582bf3261f11d20"
+  integrity sha512-6VtKCH2sBKjBpFsx44yI92+ZL3X8e0I6aPeLyC4Ox8kWmLygczBDUiAZtO0MsAGnmXF5/RkYDu1ZE9/Htvj7DA==
   dependencies:
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@0.38.1":
-  version "0.38.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.38.1.tgz#f52e5efe22dd37d8f0345f0569ca77a2757f5fda"
-  integrity sha512-J0yy3AL3O6iLqV4L4XT6zfMVAZ3EwF7sDCCktWdlJHxkoOBL89+US5uDxrcgXvLZFQEEJzbcUvtrAauEuvrvMQ==
+"@vtexlab/gatsby-theme-instore-core@0.39.0":
+  version "0.39.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.39.0.tgz#c0b056d698ac3c46d72f9dead6ae2ceea63d52f4"
+  integrity sha512-R0hf+8E9ooShg6YLBhzynHB5kloNFWccn4D/psGOGVbny/dx1g9pxJcGJ1DAKFAdXX8piADj4fJKXrlkW0vu3w==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3658,7 +3658,7 @@
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.10.5"
     "@vtexlab/checkout-instore" "2.205.7"
-    "@vtexlab/gatsby-plugin-instore-nginx" "0.38.0"
+    "@vtexlab/gatsby-plugin-instore-nginx" "0.39.0"
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
     babel-plugin-relay "^10.1.3"
