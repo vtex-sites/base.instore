@@ -3513,10 +3513,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@3.0.4":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-3.0.4.tgz#3e780380947ba6da247e8fd977d542efc12b2498"
-  integrity sha512-7ruTL4Rp5Akv1O8mIbVFV4iBdZ7QWJ75c5ktroI2KSkopWUNiIll4NhodOSYDR8Zdbr58VGlGHoaxvk8GJ+Z3A==
+"@vtexlab/checkout-instore@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-3.1.0.tgz#838244cfe4b609e1d0f3bfcfb055f0810060be6f"
+  integrity sha512-DS01/jHbbGiNFToNcFj0M5DV8GWVrcYrfgRGRaCOJW5XfLcd5ugBvkgyNzeUnwBEVL5QX6xHXKMG5/m9QCHcIw==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -3616,10 +3616,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-1.0.4.tgz#0c88f06ff79779306e5f6914f29cb627f854dc3a"
-  integrity sha512-N5x77t1k9fHHCEMiqpuCPM2NCl8j+aXHiKjf+MybPlov22IN1YckfQZlrbLWmRx+j3/GDKxPsLcBSJh8CNN8QA==
+"@vtexlab/gatsby-theme-instore-core@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-1.1.0.tgz#b983680359ae792a368dc39d2435c40263fa8f10"
+  integrity sha512-DNZbbKz55zBMvaK96kAlYcaX5Um3/97D+cnq//TQxawSQQ/5BbuQz90QBIniXSanJw0jT/LMFTz4qtZGHo+X1Q==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3635,7 +3635,7 @@
     "@vtex/gatsby-plugin-admin-ui" "^0.6.6"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.17.11"
-    "@vtexlab/checkout-instore" "3.0.4"
+    "@vtexlab/checkout-instore" "3.1.0"
     "@vtexlab/gatsby-plugin-instore-nginx" "1.0.0"
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
