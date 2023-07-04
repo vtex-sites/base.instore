@@ -3513,10 +3513,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-3.1.1.tgz#004785a30f9fcf48bf65c290f0f4569fe71decb1"
-  integrity sha512-dL+mewRWMD3jyTfpXgHRZXEWszFphYlcAk+3r0SVZZcMSJXiSD4jw+nH+wnKlOJd+uVRIKdP3FccwMcCYJz99A==
+"@vtexlab/checkout-instore@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-3.2.0.tgz#a6c5be106fc1dcf665daa47fe2b4b16b2a592cfe"
+  integrity sha512-YTxUX1JSI2O0+CQHPnb2lo3O5I3iV8PV5+WMaOObvEaU/i7vANOQOhEID2T0XFZOITgUikQlpmcz8t6kXVq/7g==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -3601,7 +3601,6 @@
     rxjs "^5.4.1"
     setimmediate "^1.0.5"
     smoothscroll-polyfill "^0.4.3"
-    splunk-events "^1.6.1-beta"
     transmitter "^2.0.0"
     url "^0.11.0"
     vtex-tachyons "^3.2.2"
@@ -3616,10 +3615,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-1.2.0.tgz#087eb9254d633c379cb7c0a9b7531a3caa520f57"
-  integrity sha512-3SKaNBdK+DUzsOdZMdZZcKjFQoDcmw5oTrIyHAuJigd22mhjnRpwUrCYc9MiX1j2f3AVZBoTQqj+jRtT1zXZig==
+"@vtexlab/gatsby-theme-instore-core@1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-1.3.0.tgz#f08906650ec18a6005c56acb97f3a7386c452e00"
+  integrity sha512-c4/6wK6Cif0o5UXeuNrNWwOGcqpuoyaHuKsHMgBQhkxrz3mHW+P30W4QqM3fh9JoTtGfWtxjsir+uwj2hMdqVQ==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3635,7 +3634,7 @@
     "@vtex/gatsby-plugin-admin-ui" "^0.6.6"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.17.11"
-    "@vtexlab/checkout-instore" "3.1.1"
+    "@vtexlab/checkout-instore" "3.2.0"
     "@vtexlab/gatsby-plugin-instore-nginx" "1.0.0"
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
@@ -15867,7 +15866,7 @@ split2@^4.0.0:
   resolved "https://registry.yarnpkg.com/split2/-/split2-4.1.0.tgz#101907a24370f85bb782f08adaabe4e281ecf809"
   integrity sha512-VBiJxFkxiXRlUIeyMQi8s4hgvKCSjtknJv/LVYbrgALPwf5zSKmEwV9Lst25AkvMDnvxODugjdl6KZgwKM1WYQ==
 
-splunk-events@^1.6.1-beta, splunk-events@^1.7.0:
+splunk-events@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/splunk-events/-/splunk-events-1.7.0.tgz#4400c2b224387e598806c8fb7e6e687cf9143fe4"
   integrity sha512-OdqBiyE45GIYWWzeNZVcZHqvagRwBINy26+u2Iu2nWQYzPtD7HnL6hSgWzFXNBzRxdQuUQWeAKE58I6pvJ9xjA==
