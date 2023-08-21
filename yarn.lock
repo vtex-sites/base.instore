@@ -3520,10 +3520,10 @@
   dependencies:
     msk "^1.0.5"
 
-"@vtexlab/checkout-instore@3.4.4":
-  version "3.4.4"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-3.4.4.tgz#5f278fe5356fa5e2ab9abac7920f1f7d5d0931e4"
-  integrity sha512-LBkplqvzbsgZjo4wATYMAsGjp/r5W5MegjM93nFXnKqhklTD6gUfLSbl+ugQ/0q5pNnViGDJmmtiMjRX5jJjjw==
+"@vtexlab/checkout-instore@3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-3.5.0.tgz#47120d072c9ddbbb34be6079f150cff10f852a66"
+  integrity sha512-VIPFB/iwx69Mcn1ts6mtF4yB+0RkEbsIbC89o3cu4br4edoKfUCa2EaKv4EVOdVu3eNFhpObkTxYxzvr2p9Iyw==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -3622,10 +3622,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-1.8.0.tgz#0eec7c2e124731c74c6a7cc1697ec5b7daf3c8a4"
-  integrity sha512-WdXfUEM4JrE7wbsixS2ZGCZkcXXH4nD/S0Ec2g3sBWUER0RhoE9lUK1OeTx2OZDX68bOaNgOAi/6v+SVDP9i3w==
+"@vtexlab/gatsby-theme-instore-core@1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-1.8.1.tgz#d07fc5f3f0239d73a19fef43f789eebb4f34dc30"
+  integrity sha512-OKrzQy2lLJg/Qmm3XoTfcaibdEOnwS8LpWoTYCtQ+2yYkn2E/AGG40skq/oMtM0Whp2SbXchiNFOjwljKmPnDw==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3642,7 +3642,7 @@
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.17.11"
     "@vtexlab/assisted-sales-localization" "^1.7.7"
-    "@vtexlab/checkout-instore" "3.4.4"
+    "@vtexlab/checkout-instore" "3.5.0"
     "@vtexlab/gatsby-plugin-instore-nginx" "1.7.6"
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
@@ -3691,6 +3691,7 @@
     react-relay-offline "^3.2.0"
     react-router "^5.2.0"
     react-router-dom "^5.2.0"
+    react-select-search "^4.1.6"
     react-swipeable "^7.0.0"
     recharts "^2.0.0-beta.1"
     redux "^4.0.5"
@@ -14558,6 +14559,11 @@ react-router@5.2.1, react-router@^5.2.0:
     react-is "^16.6.0"
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
+
+react-select-search@^4.1.6:
+  version "4.1.6"
+  resolved "https://registry.yarnpkg.com/react-select-search/-/react-select-search-4.1.6.tgz#4c3165e02007518726e004267fd1168e0076061d"
+  integrity sha512-BJMf11Ux0hqn6Z3BqRwceXdwjdF+dnpDsYGGehDPB/nZv+Dse7wdPUMqLSCVDyrH5y3xFu7r6IlZ6dj78291vA==
 
 react-select@^2.1.2:
   version "2.4.4"
