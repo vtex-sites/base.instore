@@ -3387,14 +3387,6 @@
   dependencies:
     lodash "^4.17.5"
 
-"@vtex/evidence-client-js@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@vtex/evidence-client-js/-/evidence-client-js-2.1.1.tgz#7d7c2cb43d77a100478b55ade01387ac12ee2f89"
-  integrity sha512-UgIbPeMqsM/v7OqnJGk/EFTXHgTzRdmn4C4GnOd72WrBhl8AOkrTnIhQeZ6BqNHq/FQrYdIz8u5wnsz+S5UdEA==
-  dependencies:
-    json-stringify-safe "^5.0.1"
-    md5 "^2.2.1"
-
 "@vtex/gatsby-plugin-admin-ui@^0.6.6":
   version "0.6.20"
   resolved "https://registry.yarnpkg.com/@vtex/gatsby-plugin-admin-ui/-/gatsby-plugin-admin-ui-0.6.20.tgz#2587e51120ad29a65949d449afbe31fdde148a54"
@@ -3520,10 +3512,10 @@
   dependencies:
     msk "^1.0.5"
 
-"@vtexlab/checkout-instore@3.5.5":
-  version "3.5.5"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-3.5.5.tgz#583408928ca47064a74964d3958cf996fed56e0a"
-  integrity sha512-HH3C7XQHrtobGb6n9VRy6Qqvf2ABKkm87OsrH472tSzEBfcnh4WShlOXFzpLnaeULYmo0D88KB03Z+vVWnF/Tw==
+"@vtexlab/checkout-instore@3.5.6":
+  version "3.5.6"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-3.5.6.tgz#9d9dbc27ed652111c956d5e1601e3c9b3c391ec5"
+  integrity sha512-s3LCuizpA0fJSE9EYtLwI7GICaaAPHE2qAyMuaBjgtidFuDRGHWkZpA0LqKQ0Gf7rScjXB69LJan0c56qpegrg==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -3539,7 +3531,6 @@
     "@vtex/delivery-packages" "2.18.0"
     "@vtex/diagnostics-web" "1.0.1"
     "@vtex/estimate-calculator" "^1.1.0"
-    "@vtex/evidence-client-js" "^2.1.1"
     "@vtex/phone" "^4.8.3"
     "@vtex/pickup-points-modal" "^1.1.15"
     "@vtex/scheduled-delivery" "0.5.5"
@@ -3555,7 +3546,7 @@
     clean-css "^4.2.3"
     cockatiel "2.0.2"
     connected-react-router "^6.9.1"
-    dexie "^3.0.3"
+    dexie "^3.2.4"
     events "^1.1.1"
     eventsource "^1.0.7"
     fast-safe-stringify "^2.0.4"
@@ -3623,10 +3614,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@1.8.7":
-  version "1.8.7"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-1.8.7.tgz#63ffa931e09a400d66c6ac376c4028709d9ab7ca"
-  integrity sha512-jwhIgPaBXVeX/SKOoCwozPVngCVM9fWaI/D9EMuhztn0Qx4/+rmzhWEByONshIOcJhNhX3x8Mjb8kBQXUDLfbQ==
+"@vtexlab/gatsby-theme-instore-core@1.8.8":
+  version "1.8.8"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-1.8.8.tgz#a9a680478e015c6259b0ffdbc8a4ed6bff4fb8d1"
+  integrity sha512-XM2ZYkDkfP5K+ZVHheMdXoQhZ1q/P4xjFT8+t5w22FWOhB5XQS4QMGqBUNDko/wpwMIRBEnabM7eJDw/fLBjyg==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3643,7 +3634,7 @@
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.17.11"
     "@vtexlab/assisted-sales-localization" "^1.7.7"
-    "@vtexlab/checkout-instore" "3.5.5"
+    "@vtexlab/checkout-instore" "3.5.6"
     "@vtexlab/gatsby-plugin-instore-nginx" "1.7.6"
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
@@ -3657,6 +3648,7 @@
     fast-safe-stringify "^2.0.7"
     gatsby-plugin-compile-es6-packages "^2.1.0"
     gatsby-plugin-create-client-paths "^3.7.0"
+    gatsby-plugin-google-tagmanager "^4.25.0"
     gatsby-plugin-less "^5.5.0"
     gatsby-plugin-manifest "^3.1.0"
     gatsby-plugin-offline "^4.7.0"
@@ -5431,11 +5423,6 @@ chardet@^0.7.0:
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
-charenc@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/charenc/-/charenc-0.0.2.tgz#c0a1d2f3a7092e03774bfa83f14c0fc5790a8667"
-  integrity sha1-wKHS86cJLgN3S/qD8UwPxXkKhmc=
-
 check-more-types@^2.24.0:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/check-more-types/-/check-more-types-2.24.0.tgz#1420ffb10fd444dcfc79b43891bbfffd32a84600"
@@ -6200,11 +6187,6 @@ cross-spawn@^6.0.0, cross-spawn@^6.0.5:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-crypt@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/crypt/-/crypt-0.0.2.tgz#88d7ff7ec0dfb86f713dc87bbb42d044d3e6c41b"
-  integrity sha1-iNf/fsDfuG9xPch7u0LQRNPmxBs=
-
 crypto-browserify@^3.12.0:
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/crypto-browserify/-/crypto-browserify-3.12.0.tgz#396cf9f3137f03e4b8e532c58f698254e00f80ec"
@@ -6858,10 +6840,10 @@ devcert@^1.1.3:
     tmp "^0.0.33"
     tslib "^1.10.0"
 
-dexie@^3.0.3:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/dexie/-/dexie-3.2.1.tgz#ef21456d725e700c1ab7ac4307896e4fdabaf753"
-  integrity sha512-Y8oz3t2XC9hvjkP35B5I8rUkKKwM36GGRjWQCMjzIYScg7W+GHKDXobSYswkisW7CxL1/tKQtggMDsiWqDUc1g==
+dexie@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/dexie/-/dexie-3.2.4.tgz#b22a9729be1102acb2eee16102ea6e2bc76454cf"
+  integrity sha512-VKoTQRSv7+RnffpOJ3Dh6ozknBqzWw/F3iqMdsZg958R0AS8AnY9x9d1lbwENr0gzeGJHXKcGhAMRaqys6SxqA==
 
 dfa@^1.2.0:
   version "1.2.0"
@@ -8616,6 +8598,14 @@ gatsby-plugin-create-client-paths@^3.7.0:
   dependencies:
     "@babel/runtime" "^7.15.4"
 
+gatsby-plugin-google-tagmanager@^4.25.0:
+  version "4.25.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-4.25.0.tgz#bc24b4c34964813374c4f0d5ef77e5d370b3d675"
+  integrity sha512-9l2AoS2eY7O4hPq+Rp/Q1Gg7KcVb2H3+4a6sE7rF0Vo98LQfdLS8/ED/wSY5fQ5+WVR1h7Sm9OEf3wIjTNGXlA==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    web-vitals "^1.1.2"
+
 gatsby-plugin-less@^5.5.0:
   version "5.14.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-less/-/gatsby-plugin-less-5.14.0.tgz#a987ccf173a0c50c095d49cc45322220bf67ae6d"
@@ -10119,7 +10109,7 @@ is-boolean-object@^1.1.0:
     call-bind "^1.0.2"
     has-tostringtag "^1.0.0"
 
-is-buffer@^1.1.5, is-buffer@~1.1.6:
+is-buffer@^1.1.5:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
   integrity sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
@@ -10783,7 +10773,7 @@ json-stable-stringify-without-jsonify@^1.0.1:
   resolved "https://registry.yarnpkg.com/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
   integrity sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE=
 
-json-stringify-safe@^5.0.1, json-stringify-safe@~5.0.1:
+json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
@@ -11548,15 +11538,6 @@ md5.js@^1.3.4:
     hash-base "^3.0.0"
     inherits "^2.0.1"
     safe-buffer "^5.1.2"
-
-md5@^2.2.1:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/md5/-/md5-2.3.0.tgz#c3da9a6aae3a30b46b7b0c349b87b110dc3bda4f"
-  integrity sha512-T1GITYmFaKuO91vxyoQMFETst+O71VUPEU3ze5GNzDm0OWdP8v1ziTaAEPUr/3kLsY3Sftgz242A1SetQiDL7g==
-  dependencies:
-    charenc "0.0.2"
-    crypt "0.0.2"
-    is-buffer "~1.1.6"
 
 mdast-util-compact@^2.0.0:
   version "2.0.1"
@@ -17446,6 +17427,11 @@ weakmap-polyfill@2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/weakmap-polyfill/-/weakmap-polyfill-2.0.4.tgz#bcc301e4c8eb4eda3e406f08f1a691093e407884"
   integrity sha512-ZzxBf288iALJseijWelmECm/1x7ZwQn3sMYIkDr2VvZp7r6SEKuT8D0O9Wiq6L9Nl5mazrOMcmiZE/2NCenaxw==
+
+web-vitals@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-1.1.2.tgz#06535308168986096239aa84716e68b4c6ae6d1c"
+  integrity sha512-PFMKIY+bRSXlMxVAQ+m2aw9c/ioUYfDgrYot0YUa+/xa0sakubWhSDyxAKwzymvXVdF4CZI71g06W+mqhzu6ig==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
