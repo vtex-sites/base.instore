@@ -3621,10 +3621,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-1.9.0.tgz#b2ade7d145bea13226745efb79f3b6fb246d3a22"
-  integrity sha512-sW8TY2TJJhp6IvfJ2B7pxRAM/gBT0WO8YWbrMJmlT4C9KMBmkDfog5Xvdqa8Q4Jf+a3hD4sQXBNqqF2cslcPtw==
+"@vtexlab/gatsby-theme-instore-core@1.8.11":
+  version "1.8.11"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-1.8.11.tgz#3ebaab7f75c308e8da9e47e31be8fe4d22c11d03"
+  integrity sha512-Ib1GMhyl5QYT4KqcD4mX89z6J0ZxVdVS/zXLQIll6pvfghxTa5Nq+zygaYNkI9mSj+8qxd70enLCLPTAl98hNA==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3680,7 +3680,7 @@
     react-dnd-touch-backend "^14.0.0"
     react-dom "^17.0.2"
     react-helmet "^6.1.0"
-    react-hook-form "^7.46.1"
+    react-hook-form "^6.15.4"
     react-intl "^5.15.8"
     react-intl-legacy "npm:react-intl@2.9.0"
     react-no-ssr "^1.1.0"
@@ -14222,10 +14222,10 @@ react-helmet@^6.1.0:
     react-fast-compare "^3.1.1"
     react-side-effect "^2.1.0"
 
-react-hook-form@^7.46.1:
-  version "7.46.1"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.46.1.tgz#39347dbff19d980cb41087ac32a57abdc6045bb3"
-  integrity sha512-0GfI31LRTBd5tqbXMGXT1Rdsv3rnvy0FjEk8Gn9/4tp6+s77T7DPZuGEpBRXOauL+NhyGT5iaXzdIM2R6F/E+w==
+react-hook-form@^6.15.4:
+  version "6.15.8"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-6.15.8.tgz#725c139d308c431c4611e4b9d85a49f01cfc0e7a"
+  integrity sha512-prq82ofMbnRyj5wqDe8hsTRcdR25jQ+B8KtCS7BLCzjFHAwNuCjRwzPuP4eYLsEBjEIeYd6try+pdLdw0kPkpg==
 
 react-hot-loader@^4.13.0:
   version "4.13.0"
