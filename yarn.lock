@@ -1318,6 +1318,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.21.0":
+  version "7.23.1"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.1.tgz#72741dc4d413338a91dcb044a86f3c0bc402646d"
+  integrity sha512-hC2v6p8ZSI/W0HUzh3V8C5g+NwSKzKPtJwSpTjwl0o297GP9+ZLQSkdvHz46CM3LqyoXxq+5G9komY+eSqSO0g==
+  dependencies:
+    regenerator-runtime "^0.14.0"
+
 "@babel/standalone@^7.15.5":
   version "7.17.8"
   resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.17.8.tgz#517064e5b21015476d4dc9c6518b47bf2ec4d094"
@@ -3971,19 +3978,6 @@
   resolved "https://registry.yarnpkg.com/@vtex/prettier-config/-/prettier-config-0.3.6.tgz#31762608d9a59b815b6d4e963e439b12f1a12279"
   integrity sha512-nXE3BcMODomFK3EowfK+Hdj2qQRqB8JcdRv8yTREXnN9xq8DYKmH/dWB+RY/Hn3KozFLbygpZRbqYsiA6HDINQ==
 
-"@vtex/scheduled-delivery@0.5.5":
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/@vtex/scheduled-delivery/-/scheduled-delivery-0.5.5.tgz#fbcfbbb95549911f00e48dacc5133ed1e02a4f75"
-  integrity sha512-lc5NTmX0NDzQRlO5ZpuVN277RLkk5yhroFc+jyBaTscGiUlPKEFBOBqhys7qS5z+JZb5NZDtZRZqmTfu9LGPgg==
-  dependencies:
-    "@vtex/styleguide" "^5.4.1"
-    classnames "^2.2.6"
-    fast-safe-stringify "^2.0.4"
-    lodash "^4.17.10"
-    react-datepicker "^1.5.0"
-    react-responsive "^4.1.0"
-    smoothscroll-polyfill "^0.4.3"
-
 "@vtex/styleguide@^5.4.1", "@vtex/styleguide@^5.4.4", "@vtex/styleguide@^5.6.2":
   version "5.6.2"
   resolved "https://registry.yarnpkg.com/@vtex/styleguide/-/styleguide-5.6.2.tgz#133ac2d7847b148f4b1bdb836b999cb90d667c22"
@@ -4039,10 +4033,10 @@
   dependencies:
     msk "^1.0.5"
 
-"@vtexlab/checkout-instore@4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-4.0.1.tgz#abfb0321ae91ec394a989abf82eb965bb715c24f"
-  integrity sha512-qOtZrAKmx5YU7mmohsueVMFn/fSFoKobY4cWxFRp2NdPGOUCKgEcHsQpv2F0K7XX8Orz1MdGLklmQWKdZmab3Q==
+"@vtexlab/checkout-instore@4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-4.0.2.tgz#4178f7f84097f71bd316ce3544cc04d6c6e23460"
+  integrity sha512-yEihHMX1pVQPFv/YWjWsgCRHZ5WvAglQ9PD9uvJNM4MLtmUueqjILb354gJElssrzULJIeSZ0Xgba80EDMMMLg==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -4059,11 +4053,11 @@
     "@vtex/estimate-calculator" "^1.1.0"
     "@vtex/phone" "^4.8.3"
     "@vtex/pickup-points-modal" "^1.1.15"
-    "@vtex/scheduled-delivery" "0.5.5"
     "@vtex/styleguide" "^9.145.0"
     "@vtexlab/assisted-sales-localization" "^1.7.7"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/product-ops-utils" "^0.1.0"
+    "@vtexlab/scheduled-delivery" "^1.0.0"
     abortcontroller-polyfill "^1.7.5"
     asap "^2.0.5"
     axios "^0.18.0"
@@ -4140,10 +4134,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.0.2.tgz#59bb4d1dacbc84cbaaa2b9b5ddbe83d2950863d5"
-  integrity sha512-Uxmy4tUKaEkI5Xqkz1qd+blIqhMejv8PXkAXZGFenqA0NDFNQBrAiRQ20sMy6VjsLLoUcROiuuuq/lTc1KCASg==
+"@vtexlab/gatsby-theme-instore-core@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.0.3.tgz#5621553c4422268a9c188f6a6c5218018485513f"
+  integrity sha512-oRczvmLa68asDY6axnYDNnsqVD2D+s/0BaiBTV1NJYuj62oTOC/eN3XkN03SCskmwOdHcQo2DkgndoSd8Hx7KQ==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -4159,7 +4153,7 @@
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.17.11"
     "@vtexlab/assisted-sales-localization" "1.11.2"
-    "@vtexlab/checkout-instore" "4.0.1"
+    "@vtexlab/checkout-instore" "4.0.2"
     "@vtexlab/gatsby-plugin-instore-nginx" "2.0.0"
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
@@ -4249,6 +4243,21 @@
   integrity sha512-nltlV8FJ8N0mpjToq4yEx/JGn6NheynUVPcGzWN185Q81KuEwcQYjZ9mMx8OPPnEAl8GJjFq45xeDJy0EtOtfg==
   dependencies:
     amplitude-js "^8.1.0"
+
+"@vtexlab/scheduled-delivery@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/scheduled-delivery/-/scheduled-delivery-1.0.0.tgz#9874f2fe7bec263580dbc8be4f6855d612a81f67"
+  integrity sha512-vj27LVwqUKLgm7QoEpbkpFDXHcvQtJj+C5N7qIII5vYavfq5PipLnoRpFp+6do+q4jWHkmoAMIpaxyTLzBa6fQ==
+  dependencies:
+    "@vtex/styleguide" "^5.4.1"
+    classnames "^2.2.6"
+    date-fns "^2.30.0"
+    fast-safe-stringify "^2.0.4"
+    lodash "^4.17.10"
+    moment "^2.29.4"
+    react-datepicker "2.3.0"
+    react-responsive "^4.1.0"
+    smoothscroll-polyfill "^0.4.3"
 
 "@webassemblyjs/ast@1.11.1":
   version "1.11.1"
@@ -7108,6 +7117,13 @@ dataloader@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/dataloader/-/dataloader-2.0.0.tgz#41eaf123db115987e21ca93c005cd7753c55fe6f"
   integrity sha512-YzhyDAwA4TaQIhM5go+vCLmU0UikghC/t9DTQYZR2M/UvZ1MdOhPezSDZcjj9uqQJOMqjLcpWtyW2iNINdlatQ==
+
+date-fns@^2.0.0-alpha.23, date-fns@^2.30.0:
+  version "2.30.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
+  integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
+  dependencies:
+    "@babel/runtime" "^7.21.0"
 
 date-fns@^2.0.1, date-fns@^2.14.0, date-fns@^2.28.0:
   version "2.28.0"
@@ -12779,6 +12795,11 @@ moment@^2.22.2, moment@^2.27.0:
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.2.tgz#00910c60b20843bcba52d37d58c628b47b1f20e4"
   integrity sha512-UgzG4rvxYpN15jgCmVJwac49h9ly9NurikMWGPdVxm8GZD6XjkKPxDTjQQ43gtGgnV3X0cAyWDdP2Wexoquifg==
 
+moment@^2.29.4:
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
+
 mqtt-packet@^5.6.0:
   version "5.6.1"
   resolved "https://registry.yarnpkg.com/mqtt-packet/-/mqtt-packet-5.6.1.tgz#8ecafce091f5af460664268a22b22091c8915f7b"
@@ -14654,12 +14675,13 @@ react-copy-to-clipboard@^5.0.2:
     copy-to-clipboard "^3"
     prop-types "^15.5.8"
 
-react-datepicker@^1.5.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/react-datepicker/-/react-datepicker-1.8.0.tgz#ee46148aa10234d42e22ab969d1110f74263ba56"
-  integrity sha512-N4LdVTtqJCsZyKXBQ/AqSEcH6FyhgsY1gD07zECNu60nGt5s4ngRlhYdHoE34VNFO+ZY+pvljZRLwSC8LS9RxQ==
+react-datepicker@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/react-datepicker/-/react-datepicker-2.3.0.tgz#c3c5822c8081aa34a252c08929c52bfd34576491"
+  integrity sha512-sgauGBTUlVrne5oHuYeLhBtKy2YOuEbPo/rXRTuxP/dRJNkHpXQ+ZfRmiJDX30mh/+EGRW5ORLVGhD1YgLbEiA==
   dependencies:
     classnames "^2.2.5"
+    date-fns "^2.0.0-alpha.23"
     prop-types "^15.6.0"
     react-onclickoutside "^6.7.1"
     react-popper "^1.0.2"
@@ -15498,6 +15520,11 @@ regenerator-runtime@^0.13.4:
   version "0.13.9"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
   integrity sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
+
+regenerator-runtime@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.0.tgz#5e19d68eb12d486f797e15a3c6a918f7cec5eb45"
+  integrity sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==
 
 regenerator-transform@^0.14.2:
   version "0.14.5"
