@@ -4019,24 +4019,17 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/assisted-sales-localization@1.11.2":
-  version "1.11.2"
-  resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-1.11.2.tgz#336ce0219a26da7acf5e901f5c4ee1992fb0d8c1"
-  integrity sha512-E22lVIZ1luijoWf1oYA1cwd82Qc7l/R1a2X32uosWjJfEhWTIHbj/qnkjWxHJHcW/+jqElgxjO1ipQkbf34C2w==
+"@vtexlab/assisted-sales-localization@^2.0.3":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-2.0.5.tgz#8ac088c074b6f3e3aed40b866527074d5348d9b7"
+  integrity sha512-lPTbDCkaZbMD9noVMW7pkN3odzXPfRTsfb7md16VVQH2UGN+e8e2wE4DiAgAHpdgJWtdsQcN4Z8s1Gd/mdistw==
   dependencies:
     msk "^1.0.5"
 
-"@vtexlab/assisted-sales-localization@^1.7.7":
-  version "1.7.7"
-  resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-1.7.7.tgz#c3cdfb54a71f0c1784376011055ea3dbe22bd1be"
-  integrity sha512-BzvWHhO6pFwDF/UfeOAFBAWK52HBW13Ip0Ltp27CzrsroTTMqx22LEoqFUarLHh4/psmdvNl5hXFzB+qp+UGvw==
-  dependencies:
-    msk "^1.0.5"
-
-"@vtexlab/checkout-instore@4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-4.0.2.tgz#4178f7f84097f71bd316ce3544cc04d6c6e23460"
-  integrity sha512-yEihHMX1pVQPFv/YWjWsgCRHZ5WvAglQ9PD9uvJNM4MLtmUueqjILb354gJElssrzULJIeSZ0Xgba80EDMMMLg==
+"@vtexlab/checkout-instore@4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-4.0.3.tgz#9180811fd3fdd96cc62bab63d237d60d91852afa"
+  integrity sha512-Awxt5eq2oc3E0l14s6l0a5oxTMYxXD7/8kpCIph+JVr+/Y7F3Qcvc1gF5INzapd2EXLUpAGk7vC/5oVkh7Aq1A==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -4054,7 +4047,7 @@
     "@vtex/phone" "^4.8.3"
     "@vtex/pickup-points-modal" "^1.1.15"
     "@vtex/styleguide" "^9.145.0"
-    "@vtexlab/assisted-sales-localization" "^1.7.7"
+    "@vtexlab/assisted-sales-localization" "^2.0.3"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/product-ops-utils" "^0.1.0"
     "@vtexlab/scheduled-delivery" "^1.0.0"
@@ -4134,10 +4127,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.0.5.tgz#55bcbf7441e41387ea417af346a62c4cccac6ffa"
-  integrity sha512-RyRydHa3Zj1fpXxh3igYm7XDnXUWw0pqwHcP+BYZE4oTbX5JoXfqJIe6mugSvQ8/8ewwDUqeTmpXWl6STjTi8w==
+"@vtexlab/gatsby-theme-instore-core@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.0.6.tgz#2d9b73ec2e91cc74205743db9c7ca1440ba80aa7"
+  integrity sha512-iJYOyFjE8gp1svmf3llMnnnc/ZisEkNucqwYB0/GtdhyTQfvLreV8Cc1Bvn3jCwDywUr33Fpe0t0PrQRoJu+OQ==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -4152,8 +4145,8 @@
     "@vtex/estimate-calculator" "^1.1.0"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.17.11"
-    "@vtexlab/assisted-sales-localization" "1.11.2"
-    "@vtexlab/checkout-instore" "4.0.2"
+    "@vtexlab/assisted-sales-localization" "^2.0.3"
+    "@vtexlab/checkout-instore" "4.0.3"
     "@vtexlab/gatsby-plugin-instore-nginx" "2.0.0"
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
