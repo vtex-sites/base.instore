@@ -2437,6 +2437,18 @@
     widest-line "^3.1.0"
     wrap-ansi "^6.2.0"
 
+"@openfeature/launchdarkly-client-provider@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@openfeature/launchdarkly-client-provider/-/launchdarkly-client-provider-0.2.0.tgz#22915eb36af216e367da320fd71159d18695ea25"
+  integrity sha512-Wa+kS6jETwpbJOSNQZbOInOiej7q1tpsklMZ+c6YWgwbz711Ieclz0Foc7lQLwvg1zwNXVm7GB4SJlMYUNE3DA==
+  dependencies:
+    lodash.isempty "4.4.0"
+
+"@openfeature/web-sdk@^0.4.0":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@openfeature/web-sdk/-/web-sdk-0.4.1.tgz#477fed189db4ef85aa92aafbf7735c58ca575292"
+  integrity sha512-Mjffi3bHmB6dofAr7R/yvwfCKnW4bbA+m6m4eXgRf9hEJ1lfu35GIfKtVmiRPspY24aVW15g81xv9nnudemRQQ==
+
 "@opentelemetry/api-metrics@0.32.0":
   version "0.32.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/api-metrics/-/api-metrics-0.32.0.tgz#0f09f78491a4b301ddf54a8b8a38ffa99981f645"
@@ -4040,10 +4052,10 @@
   dependencies:
     msk "^1.0.5"
 
-"@vtexlab/checkout-instore@4.0.5":
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-4.0.5.tgz#b2e3bda81cd5ec9ae7c9fe0220100e16357856a1"
-  integrity sha512-kRv3fk2MCW4XuhDVtc1WvfZoNT+tEjmzmdFlz/V3lUdjTbykS4HDtYf5wJ+tCHTTwx16rXe7lvAld0P9FyR0Hw==
+"@vtexlab/checkout-instore@4.0.6":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-4.0.6.tgz#fdab4b7cc7e2488891306c066f30c7261f1822e5"
+  integrity sha512-aHTUwKiYYT/dZxg9wFWOTqJeTZAf23URIdxo4OQU2oojpeAvWv6VSryvpjAXGiB8kKnt9L+T0XxVgPxRG5oMhQ==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -4141,15 +4153,17 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@2.1.3":
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.1.3.tgz#f9155b08926e72b207e83d8d9f1edcf62109b6a3"
-  integrity sha512-85rEpoc4ozbhx86aUoGagU9LflVq3Ko65NO00zTpUsUjkzGPszEtED0MYdiO1RAbiM/cT7/ATdADepI9Fjz1Sg==
+"@vtexlab/gatsby-theme-instore-core@2.1.4":
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.1.4.tgz#01cb5dfa9d9f38a874f6bb0d4209ebd84366e1e9"
+  integrity sha512-ZmbkDFrUhTqcF5bIH23o7lXGNDqLsLpH3xpW2F33fzAggy+MRyoSqVGrkQ17+GtqvCBJVejYdWOpoBSocwr14Q==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
     "@babel/preset-env" "^7.12.13"
     "@emotion/react" "^11.9.0"
+    "@openfeature/launchdarkly-client-provider" "^0.2.0"
+    "@openfeature/web-sdk" "^0.4.0"
     "@opentelemetry/semantic-conventions" "^1.13.0"
     "@reduxjs/toolkit" "^1.5.0"
     "@svgr/webpack" "^5.5.0"
@@ -4160,7 +4174,7 @@
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.17.11"
     "@vtexlab/assisted-sales-localization" "^2.0.3"
-    "@vtexlab/checkout-instore" "4.0.5"
+    "@vtexlab/checkout-instore" "4.0.6"
     "@vtexlab/gatsby-plugin-instore-nginx" "2.0.0"
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
@@ -4186,6 +4200,7 @@
     http-proxy-middleware "^1.0.6"
     http-status-codes "^2.1.4"
     https-browserify "^1.0.0"
+    launchdarkly-js-client-sdk "^3.1.3"
     localforage "^1.9.0"
     msk "^1.0.5"
     process "^0.11.10"
@@ -5279,7 +5294,7 @@ base64-arraybuffer@0.1.4:
   resolved "https://registry.yarnpkg.com/base64-arraybuffer/-/base64-arraybuffer-0.1.4.tgz#9818c79e059b1355f97e0428a017c838e90ba812"
   integrity sha1-mBjHngWbE1X5fgQooBfIOOkLqBI=
 
-base64-js@^1.1.2, base64-js@^1.3.1:
+base64-js@^1.1.2, base64-js@^1.3.0, base64-js@^1.3.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
   integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
@@ -8601,6 +8616,11 @@ fast-copy@^2.1.0:
   resolved "https://registry.yarnpkg.com/fast-copy/-/fast-copy-2.1.1.tgz#f5cbcf2df64215e59b8e43f0b2caabc19848083a"
   integrity sha512-Qod3DdRgFZ8GUIM6ygeoZYpQ0QLW9cf/FS9KhhjlYggcSZXWAemAw8BOCO5LuYCrR3Uj3qXDVTUzOUwG8C7beQ==
 
+fast-deep-equal@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
+  integrity sha512-bCK/2Z4zLidyB4ReuIsvALH6w31YfAQDmXMqMx6FyfHqvBxtjC0eRumeSu4Bs3XtXwpyIywtSTrVT99BxY1f9w==
+
 fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
@@ -11607,6 +11627,23 @@ latest-version@5.1.0, latest-version@^5.1.0:
   dependencies:
     package-json "^6.3.0"
 
+launchdarkly-js-client-sdk@^3.1.3:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/launchdarkly-js-client-sdk/-/launchdarkly-js-client-sdk-3.1.4.tgz#e613cb53412533c07ccf140ae570fc994c59758d"
+  integrity sha512-yq0FeklpVuHMSRz7jfUAfyM7I/659RvGztqJ0Y9G5eN/ZrG1o2W61ZU0Nrv/gqZCtLXjarh/u1otxSFFBjTpHw==
+  dependencies:
+    escape-string-regexp "^4.0.0"
+    launchdarkly-js-sdk-common "5.0.3"
+
+launchdarkly-js-sdk-common@5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/launchdarkly-js-sdk-common/-/launchdarkly-js-sdk-common-5.0.3.tgz#345f899f5779be8b03d6599978c855eb838d8b7f"
+  integrity sha512-wKG8UsVbPVq8+7eavgAm5CVmulQWN6Ddod2ZoA3euZ1zPvJPwIQ2GrOYaCJr3cFrrMIX+nQyBJHBHYxUAPcM+Q==
+  dependencies:
+    base64-js "^1.3.0"
+    fast-deep-equal "^2.0.1"
+    uuid "^8.0.0"
+
 lazy-ass@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/lazy-ass/-/lazy-ass-1.6.0.tgz#7999655e8646c17f089fdd187d150d3324d54513"
@@ -11859,6 +11896,11 @@ lodash.has@^4.0:
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/lodash.has/-/lodash.has-4.5.2.tgz#d19f4dc1095058cccbe2b0cdf4ee0fe4aa37c862"
   integrity sha1-0Z9NwQlQWMzL4rDN9O4P5Ko3yGI=
+
+lodash.isempty@4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.isempty/-/lodash.isempty-4.4.0.tgz#6f86cbedd8be4ec987be9aaf33c9684db1b31e7e"
+  integrity sha512-oKMuF3xEeqDltrGMfDxAPGIVMSSRv8tbRSODbrs4KGsRRLEhrW8N8Rd4DRgB2+621hY8A8XwwrTVhXWpxFvMzg==
 
 lodash.isequalwith@^4.4.0:
   version "4.4.0"
@@ -17928,7 +17970,7 @@ uuid@3.4.0, uuid@^3.0.0, uuid@^3.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
-uuid@^8.3.2:
+uuid@^8.0.0, uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
