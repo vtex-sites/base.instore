@@ -4052,10 +4052,10 @@
   dependencies:
     msk "^1.0.5"
 
-"@vtexlab/checkout-instore@4.0.6":
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-4.0.6.tgz#fdab4b7cc7e2488891306c066f30c7261f1822e5"
-  integrity sha512-aHTUwKiYYT/dZxg9wFWOTqJeTZAf23URIdxo4OQU2oojpeAvWv6VSryvpjAXGiB8kKnt9L+T0XxVgPxRG5oMhQ==
+"@vtexlab/checkout-instore@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-4.1.0.tgz#86ea9b6f25894b5cd904cc58cfaa3b8d6ef4ce49"
+  integrity sha512-AXlGKpqdKrvgRAKL4VWtIOyOwo7T7cQK6hnCna+tUFwgg1HamlpNEs5aaZEfsS8snwF9Kv+JPXy9Vn6KB82ijw==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -4153,10 +4153,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@2.1.4":
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.1.4.tgz#01cb5dfa9d9f38a874f6bb0d4209ebd84366e1e9"
-  integrity sha512-ZmbkDFrUhTqcF5bIH23o7lXGNDqLsLpH3xpW2F33fzAggy+MRyoSqVGrkQ17+GtqvCBJVejYdWOpoBSocwr14Q==
+"@vtexlab/gatsby-theme-instore-core@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.2.0.tgz#c3aafe7c2808adb7b63b0424e91585720d973cd8"
+  integrity sha512-yThsEqgFrCvfBwTked4g+jMYPVJ/E9IfFZWTKUlGjjfIleisBaLiKTscSqKiQosXyVNf7/CYlHuWhg9Dvbc+kQ==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -4174,7 +4174,7 @@
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.17.11"
     "@vtexlab/assisted-sales-localization" "^2.0.3"
-    "@vtexlab/checkout-instore" "4.0.6"
+    "@vtexlab/checkout-instore" "4.1.0"
     "@vtexlab/gatsby-plugin-instore-nginx" "2.0.0"
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
@@ -4209,6 +4209,7 @@
     ramda "^0.27.1"
     react "^17.0.2"
     react-cookie "^4.0.3"
+    react-currency-input-field "^3.6.11"
     react-dnd "^14.0.5"
     react-dnd-html5-backend "^14.0.0"
     react-dnd-touch-backend "^14.0.0"
@@ -14723,6 +14724,11 @@ react-copy-to-clipboard@^5.0.2:
   dependencies:
     copy-to-clipboard "^3"
     prop-types "^15.5.8"
+
+react-currency-input-field@^3.6.11:
+  version "3.6.11"
+  resolved "https://registry.yarnpkg.com/react-currency-input-field/-/react-currency-input-field-3.6.11.tgz#5e0c94b85c78c51ddfa33e4b60608accfa123366"
+  integrity sha512-M9vOx1eaioSaYWirm7W2WSBi4bpLg+LK4Gf7C1kNhy6MvoSoOzd0mYZPxA78OC9UBIQ2nM080Wu9D1CwTY6n3w==
 
 react-datepicker@2.3.0:
   version "2.3.0"
