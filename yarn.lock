@@ -4065,10 +4065,10 @@
   dependencies:
     msk "^1.0.5"
 
-"@vtexlab/checkout-instore@4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-4.2.0.tgz#8ec6f4c379828e17b7848bb1ba704ce3cd572d66"
-  integrity sha512-+Y9ixyGb5mw7FSNM3v+XrU6PX81lMAcsjOEYaM7RlPkIxCC7nyzjweqWEh1JS+k9Qt8GG3XNSjb89iQ4d4poYg==
+"@vtexlab/checkout-instore@4.3.1":
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-4.3.1.tgz#312a4b81053a93a9b2fa9a145a7a413fca0a386c"
+  integrity sha512-Cw307HzwKfUNhK6qQUZizlBrYXHFU/4BB9NejF9RY67Cy+5Kj2/2mDXMNQ2TDLsElNUgyvBy1Cq8f6LCsv2rVQ==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -4089,7 +4089,7 @@
     "@vtexlab/assisted-sales-localization" "^2.3.2"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/product-ops-utils" "^0.1.0"
-    "@vtexlab/scheduled-delivery" "^1.0.0"
+    "@vtexlab/scheduled-delivery" "^1.0.2"
     abortcontroller-polyfill "^1.7.5"
     asap "^2.0.5"
     axios "^0.18.0"
@@ -4166,10 +4166,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.4.2.tgz#010fe6fec97583b36466957d8dcd7bea263055a4"
-  integrity sha512-grxWAQWqHdPveE510TROqdYSEir7OfsiE94UvsEWnHoTAWqB4M4SzF8ASSNbooZxtsFpUv0DXsm87lbQCFno9A==
+"@vtexlab/gatsby-theme-instore-core@2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.4.3.tgz#58c4f7cda661e99c6007c2a8d14564b477327387"
+  integrity sha512-6/mN3thfPimE3gBZtFT33WuTZo0CYTheyvYHCryMlU7S11fwXeSanJn3Mi5MOPQcO8GVWkxYZOnjOo8FgoQ5eg==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -4188,8 +4188,9 @@
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.17.11"
     "@vtexlab/assisted-sales-localization" "2.3.2"
-    "@vtexlab/checkout-instore" "4.2.0"
+    "@vtexlab/checkout-instore" "4.3.1"
     "@vtexlab/gatsby-plugin-instore-nginx" "2.0.0"
+    "@vtexlab/scheduled-delivery" "^1.0.2"
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
     babel-plugin-relay "^10.1.3"
@@ -4281,10 +4282,10 @@
   dependencies:
     amplitude-js "^8.1.0"
 
-"@vtexlab/scheduled-delivery@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/scheduled-delivery/-/scheduled-delivery-1.0.0.tgz#9874f2fe7bec263580dbc8be4f6855d612a81f67"
-  integrity sha512-vj27LVwqUKLgm7QoEpbkpFDXHcvQtJj+C5N7qIII5vYavfq5PipLnoRpFp+6do+q4jWHkmoAMIpaxyTLzBa6fQ==
+"@vtexlab/scheduled-delivery@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@vtexlab/scheduled-delivery/-/scheduled-delivery-1.0.2.tgz#d61a4cf900e88b527be88a4e35baae9d9c547f84"
+  integrity sha512-FgaiAVE72MgeaRXwB5Z2INeXSlubyELEb9lxyvQQMClLphPg9DYkA1RHVkQcgARW/HhE/sLi6Q+4bR0sjaiL4g==
   dependencies:
     "@vtex/styleguide" "^5.4.1"
     classnames "^2.2.6"
