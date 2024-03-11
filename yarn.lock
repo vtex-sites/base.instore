@@ -4072,10 +4072,10 @@
   dependencies:
     msk "^1.0.5"
 
-"@vtexlab/checkout-instore@4.5.1":
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-4.5.1.tgz#256580751d7f9b1ffa8d44fa9f5405bd060843df"
-  integrity sha512-MVmrXS8EIPmhenvhUCdJmY0ZogKRERx4WwbmyB65Ps39adHhWvu61JCv9EKu/+mt7yEXz/YeNV7YQxTGeb1Pzw==
+"@vtexlab/checkout-instore@4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-4.5.2.tgz#a4bf147da0d5e638cb210df695938a8318c6ef80"
+  integrity sha512-vltGBP7Mk/6iTs4Whp8SvPa7fJKkyYEg4grqU4gMUTL99rCTrgnjP7/cOI8ZtALECTkCYdapAii1d/YHUIICCQ==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -4174,10 +4174,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@2.19.3":
-  version "2.19.3"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.19.3.tgz#95a5b11263d47da8dda568b256e2fc0683fbc5ac"
-  integrity sha512-1+FKyS0BGL3IFBGcT/8TMBVoblm+hPsFmTJe/50d8FyxmOrPATwVTD4cfzECiXq4NKx7HcCseYSlmrY3dsXFRg==
+"@vtexlab/gatsby-theme-instore-core@2.19.4":
+  version "2.19.4"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.19.4.tgz#a66e92bd31e5dc38b1b3bf38fab2b53142d8ffcb"
+  integrity sha512-QB8Eoy2N7U5xuZwr7ftme6rxMJDqZjHJ61cMUJSkDB7NIjttvNtEtiVcRffeelyzy8OVexsKsdFQJshbRvt4mQ==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -4196,7 +4196,7 @@
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.17.11"
     "@vtexlab/assisted-sales-localization" "2.19.1"
-    "@vtexlab/checkout-instore" "4.5.1"
+    "@vtexlab/checkout-instore" "4.5.2"
     "@vtexlab/gatsby-plugin-instore-nginx" "2.18.0"
     "@vtexlab/scheduled-delivery" "^1.0.2"
     abortcontroller-polyfill "^1.7.3"
@@ -14976,8 +14976,18 @@ react-input-autosize@^2.2.1:
   dependencies:
     prop-types "^15.5.8"
 
-"react-intl-legacy@npm:react-intl@2.9.0", react-intl@^2.7.2:
-  name react-intl-legacy
+"react-intl-legacy@npm:react-intl@2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.9.0.tgz#c97c5d17d4718f1575fdbd5a769f96018a3b1843"
+  integrity sha512-27jnDlb/d2A7mSJwrbOBnUgD+rPep+abmoJE511Tf8BnoONIAUehy/U1zZCHGO17mnOwMWxqN4qC0nW11cD6rA==
+  dependencies:
+    hoist-non-react-statics "^3.3.0"
+    intl-format-cache "^2.0.5"
+    intl-messageformat "^2.1.0"
+    intl-relativeformat "^2.1.0"
+    invariant "^2.1.1"
+
+react-intl@^2.7.2:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.9.0.tgz#c97c5d17d4718f1575fdbd5a769f96018a3b1843"
   integrity sha512-27jnDlb/d2A7mSJwrbOBnUgD+rPep+abmoJE511Tf8BnoONIAUehy/U1zZCHGO17mnOwMWxqN4qC0nW11cD6rA==
