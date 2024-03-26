@@ -4065,10 +4065,10 @@
   dependencies:
     msk "^1.0.5"
 
-"@vtexlab/checkout-instore@4.5.5":
-  version "4.5.5"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-4.5.5.tgz#d26b1bc3a95733d163ead3c53fcc9d3c4adcb3a7"
-  integrity sha512-OzPM29k9xeLvxQHSTagjoA+YoKWs5UtHahGEo5LXBsMH/Wy1MA8gAmSgtbFzs3iXsZnl5FZPlTgNBoieTFWKcA==
+"@vtexlab/checkout-instore@4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-4.5.6.tgz#352edaaa5d79f80b79ae68f50e5bba46f1fb2b2f"
+  integrity sha512-b5lyy4AIpEftchYJ7DtjC20BldnYQYUq2ug8MWjN1w3xRnQ+f6AQ/XI8VsvKbuHCXlHedJg9YxrtmQaDwSa5Ug==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -4167,10 +4167,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@2.19.12":
-  version "2.19.12"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.19.12.tgz#017f3809f4e8a35369e2992611a310238da66e38"
-  integrity sha512-RAkb8Ma8Y7SuHp+am+m5NBKuhsXvGmL+13QVUmhZU2OyHHkwRWjIWNc+2AnzxU2lWjsHzfRXwCD6YEgag6032w==
+"@vtexlab/gatsby-theme-instore-core@2.19.13":
+  version "2.19.13"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.19.13.tgz#c6f26f0fc766a66182e0685cb03170cc1a090cdc"
+  integrity sha512-anmfsWZosAg00mzxsYnQkm22Z89gFALwNcbVpQgo1QwtcHWo+YNJwkXj/whAO36N+2Z0fqnL5i55EnOks+3sCg==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -4189,7 +4189,7 @@
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.17.11"
     "@vtexlab/assisted-sales-localization" "2.19.10"
-    "@vtexlab/checkout-instore" "4.5.5"
+    "@vtexlab/checkout-instore" "4.5.6"
     "@vtexlab/gatsby-plugin-instore-nginx" "2.18.0"
     "@vtexlab/scheduled-delivery" "^1.0.2"
     abortcontroller-polyfill "^1.7.3"
