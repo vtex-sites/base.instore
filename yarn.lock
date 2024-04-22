@@ -4070,7 +4070,15 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/assisted-sales-localization@2.21.1", "@vtexlab/assisted-sales-localization@^2.21.1":
+"@vtexlab/assisted-sales-localization@2.24.2":
+  version "2.24.2"
+  resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-2.24.2.tgz#f5555b4f6ff1112d1efe1a38c062910bb73ec25e"
+  integrity sha512-dI12HMFopFkA1zpxBpL2G5c2IXN+ZAYUw2ij4noFWQwlOhs4LO8J4wpZ2KRB3q4AWWWeuhxV+jRDWw/U9w7c7w==
+  dependencies:
+    lint "^0.8.19"
+    msk "^1.0.5"
+
+"@vtexlab/assisted-sales-localization@^2.21.1":
   version "2.21.1"
   resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-2.21.1.tgz#c1fbce60356b95b77e7bc0feb6181848c424d23f"
   integrity sha512-anoXEygHxlSOhWCH/M8t+cE2Pj/Nm7BTGDClWX1zdBOhW+oCoDqtfCx2Nom4nqKmYSWotLKoQuk+E6FcLxx2Bg==
@@ -4180,10 +4188,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@2.24.1":
-  version "2.24.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.24.1.tgz#511643b548e55f6b3eef39bb32615b28483f21db"
-  integrity sha512-P7LUqe0kyz7Gun2P0vN4jp9sdXPJLxJaMqa9xVpBUefN5/SHvYdv8iUt1JNVqo5ypjhx+SQ0ussr2siuDSrPvw==
+"@vtexlab/gatsby-theme-instore-core@2.24.2":
+  version "2.24.2"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.24.2.tgz#6012ecd40fe7a21e0fba857f72da780a4149b02c"
+  integrity sha512-rHrNAOkuycNLTnhaZTkDUVwPwIyCJLfHdbYjdE7G9p+GH4/+YWcigPf/aXV1W5qq0UsCo506ypCE73HCnEyUvg==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -4201,7 +4209,7 @@
     "@vtex/estimate-calculator" "^1.1.0"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.17.11"
-    "@vtexlab/assisted-sales-localization" "2.21.1"
+    "@vtexlab/assisted-sales-localization" "2.24.2"
     "@vtexlab/checkout-instore" "4.8.1"
     "@vtexlab/gatsby-plugin-instore-nginx" "2.18.0"
     "@vtexlab/scheduled-delivery" "^1.0.2"
