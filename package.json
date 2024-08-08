@@ -24,7 +24,7 @@
     "cypress:open": "cypress open"
   },
   "dependencies": {
-    "@vtexlab/gatsby-theme-instore-core": "3.0.4",
+    "@vtexlab/gatsby-theme-instore-core": "3.0.5",
     "gatsby": "^3.7.2"
   },
   "devDependencies": {
