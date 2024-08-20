@@ -2835,6 +2835,13 @@
   dependencies:
     dequal "^2.0.2"
 
+"@restart/hooks@^0.4.9":
+  version "0.4.16"
+  resolved "https://registry.yarnpkg.com/@restart/hooks/-/hooks-0.4.16.tgz#95ae8ac1cc7e2bd4fed5e39800ff85604c6d59fb"
+  integrity sha512-f7aCv7c+nU/3mF7NWLtVVr0Ra80RqsO89hO72r+Y/nvQr5+q0UFGkocElTH6MJApvReVh6JHUFYn2cw1WdHF3w==
+  dependencies:
+    dequal "^2.0.3"
+
 "@sentry-internal/feedback@7.112.2":
   version "7.112.2"
   resolved "https://registry.yarnpkg.com/@sentry-internal/feedback/-/feedback-7.112.2.tgz#3945ae9e980854e1d53560ed6a28684f02625fbc"
@@ -3954,10 +3961,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.1.1.tgz#bdfc2472aa57bb1e77b2d1b7215566f8edc655e6"
-  integrity sha512-ZMBYWZUsjtblSyEPdDugdKjHB9Z1AiwNOX/yGggEHZSHf5T7PlRn0GoJSHBWnwwCHv7JOuDf5VS8Q5zoSByakw==
+"@vtexlab/gatsby-theme-instore-core@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.2.0.tgz#1e0a3b816a74f552b44386a7e7a16aaad34eb11f"
+  integrity sha512-n7rmBkhgFxZsd68CVn+bOS7p2W0JBbHdlzmONRA48yk6BcnUYxen8B3wlMcSOf2AZC4MfUq0vIVX+KuX8VFo4A==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3993,7 +4000,7 @@
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
     axios "^0.18.0"
-    babel-plugin-relay "^10.1.3"
+    babel-plugin-relay "^13"
     base64-url "2.2.0"
     browserify-zlib "^0.2.0"
     buffer "^6.0.3"
@@ -4062,9 +4069,9 @@
     react-portal "^4.2.1"
     react-redux "^7.2.2"
     react-redux-actions-hook "^1.1.16"
-    react-relay "^11.0.0"
+    react-relay "^13"
     react-relay-network-modern "^6.2.1"
-    react-relay-offline "^3.2.0"
+    react-relay-offline "^6"
     react-router "^5.2.0"
     react-router-dom "^5.2.0"
     react-select-search "^4.1.6"
@@ -4076,8 +4083,10 @@
     redux-logic "^3.0.3"
     redux-logic-legacy "npm:redux-logic@0.12.2"
     redux-persist "^6.0.0"
-    relay-hooks "^4.2.0"
-    relay-runtime "11.0.0"
+    relay-compiler "^13"
+    relay-config "^12.0.1"
+    relay-hooks "^9.0.0"
+    relay-runtime "^13"
     rxjs "^5.4.1"
     short-unique-id "^5.0.3"
     stream-browserify "^3.0.0"
@@ -4244,28 +4253,28 @@
     "@webassemblyjs/ast" "1.11.1"
     "@xtuc/long" "4.2.2"
 
-"@wora/cache-persist@^2.2.0", "@wora/cache-persist@^2.2.1":
+"@wora/cache-persist@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@wora/cache-persist/-/cache-persist-2.2.1.tgz#8f2587875b6aad343a202f933d1ce825fc5a0f3a"
   integrity sha512-X9MHiML5F8z3mabnl6J8hAwjn9g6Sria6+wUGwo97UDLMOWpZtJ+Jp/DQ7GjI1JirVXMQUDXBftVDgpvjhpNcw==
   dependencies:
     idb "^4.0.0"
 
-"@wora/detect-network@^2.0.0":
+"@wora/detect-network@^2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@wora/detect-network/-/detect-network-2.0.1.tgz#324897e89fe6933047a9cbb4aa0a44344a776a0e"
   integrity sha512-EISR3DCg05XxKSpK5N+WQt8gs4vETOulvD6rmvAonbdGJc9y7ltsiIDcjSskK6p81THS1gqunsg/vXJiTxIzxw==
   dependencies:
     "@wora/netinfo" "^2.1.1"
 
-"@wora/netinfo@^2.1.0", "@wora/netinfo@^2.1.1":
+"@wora/netinfo@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@wora/netinfo/-/netinfo-2.1.1.tgz#bd7e0ae2e037cdb1d550380c66c1d66f1e09fca7"
   integrity sha512-RON7Wahywy0PTUhgeBaVuL4gMs+RPRuHfw5kV63KTFsBIZjYv0ymNCz3LB1b99rHuRpEs7TdhDpcTM458NG5aw==
   dependencies:
     fbjs "^3.0.0"
 
-"@wora/offline-first@^2.4.0":
+"@wora/offline-first@^2.4.1":
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/@wora/offline-first/-/offline-first-2.4.1.tgz#2a93b5575e0ffb3343b75632904763aa99695449"
   integrity sha512-xeaoNOcvT1pp1TNfN6YmKNoFwLWI3xmisW2a3gLrnktm1nz2pEy3evc4dTO5x1MXr5d3vrieZzRV4fkz97N3xQ==
@@ -4274,24 +4283,24 @@
     "@wora/netinfo" "^2.1.1"
     fbjs "^3.0.0"
 
-"@wora/relay-offline@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@wora/relay-offline/-/relay-offline-4.1.0.tgz#c408852dd4953e1f62835008744ac2456de024a6"
-  integrity sha512-JMDBg8MZyLObDvbnyTr+ko8ouH4Tf+4gT8kR45jeaBMEkPN69BFUNFp6UN7rCBgNv3X8gTsOl+jknKz+lQMiFQ==
+"@wora/relay-offline@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@wora/relay-offline/-/relay-offline-7.0.0.tgz#2a7506d49cc08043fd91adefecd4d17b185e9e48"
+  integrity sha512-L9Ql8BvnLWNaXYo1Uaolh2yMo5ZOGY65z2NGshjXwquHqqlyplfRrCDl9dJBqlZK9BJt4JWmsVemyyP1ph9OEA==
   dependencies:
-    "@wora/cache-persist" "^2.2.0"
-    "@wora/offline-first" "^2.4.0"
-    "@wora/relay-store" "^4.1.0"
+    "@wora/cache-persist" "^2.2.1"
+    "@wora/offline-first" "^2.4.1"
+    "@wora/relay-store" "^7.0.0"
     fbjs "^3.0.0"
     tslib "^1.11.1"
     uuid "3.3.2"
 
-"@wora/relay-store@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@wora/relay-store/-/relay-store-4.1.0.tgz#8e945fb824fc4837bc6493fb08981097517aac36"
-  integrity sha512-w6Vebgh4dlw8yTUe2VKqqzDhTRsx2otz2xnueHMfAC7TOuvFe74j7MzMQlr3/uxuz+yz+tLStpvCS8u5RQ7Ukw==
+"@wora/relay-store@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@wora/relay-store/-/relay-store-7.0.0.tgz#461244120f3eeffafda16c38f17af478317e0113"
+  integrity sha512-Icdn91+X96oSRWj93kcQ38HTeVQmSqqLYpYQJmifC2LymCfuUFMIDVQWD4c37wQo9hR0sVruqtwEAZ3afxXUfw==
   dependencies:
-    "@wora/cache-persist" "^2.2.0"
+    "@wora/cache-persist" "^2.2.1"
     tslib "^1.11.1"
 
 "@xtuc/ieee754@^1.2.0":
@@ -4935,12 +4944,14 @@ babel-plugin-polyfill-regenerator@^0.3.0:
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.1"
 
-babel-plugin-relay@^10.1.3:
-  version "10.1.3"
-  resolved "https://registry.yarnpkg.com/babel-plugin-relay/-/babel-plugin-relay-10.1.3.tgz#3c52f06869c2295766f4df63736b9ad887386af3"
-  integrity sha512-2dD9J6lRAT9jOWD6WqMKSdpZ5inoRlyOnEEVGoRVQ9jVR6ktO+KDgigS/+sfbg8GIY+3Xb/meC1cegdI5evrSA==
+babel-plugin-relay@^13:
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-relay/-/babel-plugin-relay-13.2.0.tgz#2145f05373ef8e452c6aff14c9055994a14d47a7"
+  integrity sha512-1jGcpu0aTHkbBNtMDq7F3ZQWtVPSJfIx83lW1Qce/AMElD27JEjXd9eRPwU0/9K6JQgjLESQMjurCwJAEF8Xxw==
   dependencies:
     babel-plugin-macros "^2.0.0"
+    cosmiconfig "^5.0.5"
+    graphql "15.3.0"
 
 babel-plugin-remove-graphql-queries@^3.14.0:
   version "3.14.0"
@@ -5503,6 +5514,25 @@ call-bind@^1.0.0, call-bind@^1.0.2:
   dependencies:
     function-bind "^1.1.1"
     get-intrinsic "^1.0.2"
+
+caller-callsite@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/caller-callsite/-/caller-callsite-2.0.0.tgz#847e0fce0a223750a9a027c54b33731ad3154134"
+  integrity sha512-JuG3qI4QOftFsZyOn1qq87fq5grLIyk1JYd5lJmdA+fG7aQ9pA/i3JIJGcO3q0MrRcHlOt1U+ZeHW8Dq9axALQ==
+  dependencies:
+    callsites "^2.0.0"
+
+caller-path@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/caller-path/-/caller-path-2.0.0.tgz#468f83044e369ab2010fac5f06ceee15bb2cb1f4"
+  integrity sha512-MCL3sf6nCSXOwCTzvPKhN18TU7AHTvdtam8DAogxcrJ8Rjfbbg7Lgng64H9Iy+vUV6VGFClN/TyxBkAebLRR4A==
+  dependencies:
+    caller-callsite "^2.0.0"
+
+callsites@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/callsites/-/callsites-2.0.0.tgz#06eb84f00eea413da86affefacbffb36093b3c50"
+  integrity sha512-ksWePWBloaWPxJYQ8TL0JHvtci6G5QTKwQ95RcWAa/lzoAKuAOflGdAK92hpHXjkwb8zLxoLNUoNYZgVsaJzvQ==
 
 callsites@^3.0.0:
   version "3.1.0"
@@ -6333,6 +6363,16 @@ cosmiconfig@7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
+cosmiconfig@^5.0.5:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-5.2.1.tgz#040f726809c591e77a17c0a3626ca45b4f168b1a"
+  integrity sha512-H65gsXo1SKjf8zmrJ67eJk8aIRKV5ff2D4uKZIBZShbhGSpEmsQOPW/SKMKYhSTrqR7ufy6RP69rPogdaPh/kA==
+  dependencies:
+    import-fresh "^2.0.0"
+    is-directory "^0.3.1"
+    js-yaml "^3.13.1"
+    parse-json "^4.0.0"
+
 cosmiconfig@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-6.0.0.tgz#da4fee853c52f6b1e6935f41c1a2fc50bd4a9982"
@@ -7039,6 +7079,11 @@ dequal@2.0.2, dequal@^2.0.0, dequal@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/dequal/-/dequal-2.0.2.tgz#85ca22025e3a87e65ef75a7a437b35284a7e319d"
   integrity sha512-q9K8BlJVxK7hQYqa6XISGmBZbtQQWVXSrRrWreHC94rMt1QL/Impruc+7p2CYSYuVIUr+YCt6hjrs1kkdJRTug==
+
+dequal@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/dequal/-/dequal-2.0.3.tgz#2644214f1997d39ed0ee0ece72335490a7ac67be"
+  integrity sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==
 
 des.js@^1.0.0:
   version "1.0.1"
@@ -8323,6 +8368,19 @@ fbjs@^3.0.0:
     setimmediate "^1.0.5"
     ua-parser-js "^0.7.30"
 
+fbjs@^3.0.2:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-3.0.5.tgz#aa0edb7d5caa6340011790bd9249dbef8a81128d"
+  integrity sha512-ztsSx77JBtkuMrEypfhgc3cI0+0h+svqeie7xHbh1k/IKdcydnvadp/mUaGgjAOXQmQSxsqgaRhS3q9fy+1kxg==
+  dependencies:
+    cross-fetch "^3.1.5"
+    fbjs-css-vars "^1.0.0"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^1.0.35"
+
 fd-slicer@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/fd-slicer/-/fd-slicer-1.1.0.tgz#25c7c89cb1f9077f8891bbe61d8f390eae256f1e"
@@ -9507,6 +9565,11 @@ graphql-ws@^4.4.1:
   resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-4.9.0.tgz#5cfd8bb490b35e86583d8322f5d5d099c26e365c"
   integrity sha512-sHkK9+lUm20/BGawNEWNtVAeJzhZeBg21VmvmLoT5NdGVeZWv5PdIhkcayQIAgjSyyQ17WMKmbDijIPG2On+Ag==
 
+graphql@15.3.0:
+  version "15.3.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.3.0.tgz#3ad2b0caab0d110e3be4a5a9b2aa281e362b5278"
+  integrity sha512-GTCJtzJmkFLWRfFJuoo9RWWa/FfamUHgiFosxi/X1Ani4AVWbeyBenZTNX6dM+7WSbbFfTo/25eh0LLkwHMw2w==
+
 graphql@^15.4.0, graphql@^15.5.1:
   version "15.8.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.8.0.tgz#33410e96b012fa3bdb1091cc99a94769db212b38"
@@ -9943,6 +10006,14 @@ immutable@~3.7.6:
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.7.6.tgz#13b4d3cb12befa15482a26fe1b2ebae640071e4b"
   integrity sha1-E7TTyxK++hVIKib+Gy665kAHHks=
 
+import-fresh@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-2.0.0.tgz#d81355c15612d386c61f9ddd3922d4304822a546"
+  integrity sha512-eZ5H8rcgYazHbKC3PG4ClHNykCSxtAhxSSEM+2mb+7evD2CKF5V7c0dNum7AdpDh0ZdICwZY9sRSn8f+KH96sg==
+  dependencies:
+    caller-path "^2.0.0"
+    resolve-from "^3.0.0"
+
 import-fresh@^3.0.0, import-fresh@^3.1.0, import-fresh@^3.2.1:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-3.3.0.tgz#37162c25fcb9ebaa2e6e53d5b4d88ce17d9e0c2b"
@@ -10332,6 +10403,11 @@ is-descriptor@^1.0.0, is-descriptor@^1.0.2:
     is-accessor-descriptor "^1.0.0"
     is-data-descriptor "^1.0.0"
     kind-of "^6.0.2"
+
+is-directory@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/is-directory/-/is-directory-0.3.1.tgz#61339b6f2475fc772fd9c9d83f5c8575dc154ae1"
+  integrity sha512-yVChGzahRFvbkscn2MlwGismPO12i9+znNruC5gVEntG3qu0xQMzsGg/JFbrsqDOHtHFPci+V5aP5T9I+yeKqw==
 
 is-docker@^2.0.0, is-docker@^2.2.1:
   version "2.2.1"
@@ -10853,7 +10929,7 @@ json-loader@^0.5.7:
   resolved "https://registry.yarnpkg.com/json-loader/-/json-loader-0.5.7.tgz#dca14a70235ff82f0ac9a3abeb60d337a365185d"
   integrity sha512-QLPs8Dj7lnf3e3QYS1zkCo+4ZwqOiF9d/nZnYozTISxXWCfNs9yuky5rJw4/W34s7POaNlbZmQGaB5NiXCbP4w==
 
-json-parse-better-errors@^1.0.2:
+json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==
@@ -13065,6 +13141,14 @@ parse-filepath@^1.0.2:
     map-cache "^0.2.0"
     path-root "^0.1.1"
 
+parse-json@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-4.0.0.tgz#be35f5425be1f7f6c747184f98a788cb99477ee0"
+  integrity sha512-aOIos8bujGN93/8Ox/jPLh7RwVnPEysynVFE+fQZyg6jKELEHwzgKdLRFHUgXJL6kylijVSBC4BvN9OmsB48Rw==
+  dependencies:
+    error-ex "^1.3.1"
+    json-parse-better-errors "^1.0.1"
+
 parse-json@^5.0.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-5.2.0.tgz#c76fc66dee54231c962b22bcc8a72cf2f99753cd"
@@ -14447,34 +14531,34 @@ react-relay-network-modern@^6.2.1:
     core-js "^3.0.0"
     extract-files "^9.0.0"
 
-react-relay-offline@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/react-relay-offline/-/react-relay-offline-3.2.0.tgz#1fc2bf7f16b0ecf9ca89ecd5af3213f1c1de1190"
-  integrity sha512-MrBFnhKk4WVus4DI5IXVDvTSS3VYvcjy0vBZsA0STDfczocee77wz7mAXpEUfXhxd0OLfMv3oSfj82ggugA+4Q==
+react-relay-offline@^6:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/react-relay-offline/-/react-relay-offline-6.0.0.tgz#a6eb2870caf0f18b1590f6009ae0d96a1f78aa54"
+  integrity sha512-kjfRG96+tCu3eaeSL4KoIyfpMzgTpiX3P1ieEgJ9+rtdDqhwkXRnFMzxBQojlTTjbsRCfYzk5oU0VIjwEg8mbQ==
   dependencies:
     "@babel/runtime" "^7.7.2"
-    "@wora/cache-persist" "^2.2.0"
-    "@wora/detect-network" "^2.0.0"
-    "@wora/netinfo" "^2.1.0"
-    "@wora/offline-first" "^2.4.0"
-    "@wora/relay-offline" "^4.1.0"
-    "@wora/relay-store" "^4.1.0"
+    "@wora/cache-persist" "^2.2.1"
+    "@wora/detect-network" "^2.0.1"
+    "@wora/netinfo" "^2.1.1"
+    "@wora/offline-first" "^2.4.1"
+    "@wora/relay-offline" "^7.0.0"
+    "@wora/relay-store" "^7.0.0"
     fbjs "^3.0.0"
     nullthrows "^1.1.0"
-    relay-hooks "^4.1.1"
+    relay-hooks "^7.1.0"
     tslib "^1.11.1"
     uuid "3.3.2"
 
-react-relay@^11.0.0:
-  version "11.0.2"
-  resolved "https://registry.yarnpkg.com/react-relay/-/react-relay-11.0.2.tgz#5f77e30e0d592f19c641e5dcc42f5d828bd16da5"
-  integrity sha512-RxtLBl8nxbaP26RcNDtKMrUBuJB5kFCCI4aZxnZByoncgovDgtewAsMiwcI8aDA8FjmXWRAtAAckh8DkMsMp7Q==
+react-relay@^13:
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/react-relay/-/react-relay-13.2.0.tgz#3f8cf7bb4058d293b079d107b204fb5c27d7a4e7"
+  integrity sha512-ldUMWZ5nIMhz1VpRylFhMGc8lEaufR0ZwwfW6YqTMU/Rsy5c5nHGN7hvktPvdUV+biy6pzdRzfFiny469gok4A==
   dependencies:
     "@babel/runtime" "^7.0.0"
-    fbjs "^3.0.0"
+    fbjs "^3.0.2"
     invariant "^2.2.4"
     nullthrows "^1.1.1"
-    relay-runtime "11.0.2"
+    relay-runtime "13.2.0"
 
 react-resize-detector@^6.6.3:
   version "6.7.8"
@@ -14993,30 +15077,33 @@ relay-compiler@12.0.0:
     signedsource "^1.0.0"
     yargs "^15.3.1"
 
-relay-hooks@^4.1.1, relay-hooks@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/relay-hooks/-/relay-hooks-4.2.0.tgz#a36ab620276e6af8a3c76d4a2c6d1e266ec1625f"
-  integrity sha512-TqBLysdah2300IRYETyBbgLVM/bXHqG7KP00JqQQDy9DBmJ3XCeZoDxHGlkFOv8MBqBpXXApRarjMH0T63y2aw==
+relay-compiler@^13:
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/relay-compiler/-/relay-compiler-13.2.0.tgz#06dd416e19e1cd22008b89499726ea5eb342c36e"
+  integrity sha512-GGLWTJYqQ5jQLMXlq++Fl17f4gMuvmIi3+xU/TrD4UqWZLI3qhxE0NFAmOvg6xgBQ8xtCMhP066kv+3bhL+7Aw==
+
+relay-config@^12.0.1:
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/relay-config/-/relay-config-12.0.1.tgz#852ddfe22081b837ce4d2282dffd4dbe75f34c67"
+  integrity sha512-vq7GLLsGPpb/tZr9kmfbfe5sLO1cGa67jpCp4Xtk+N98fMInCu9YIH8R/FxxUhKVPnpLQf3ecmz+s+/MjzcnTQ==
+  dependencies:
+    cosmiconfig "^5.0.5"
+
+relay-hooks@^7.1.0:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/relay-hooks/-/relay-hooks-7.2.1.tgz#c9a9e9ec49ab1374a044b30524245ebe7275e443"
+  integrity sha512-PQgiN7u0Yif0yVZ393S+qV4J8rYKOn/rdCdElMEp2RCfUcj7LdCrBQYgX0b0do9i1cNPWVWpbxPZ7kBUGODNCA==
   dependencies:
     "@restart/hooks" "^0.3.1"
     fbjs "^3.0.0"
 
-relay-runtime@11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-11.0.0.tgz#cb3244dc4e2919a51fdcbedddd5d13a20cf393e8"
-  integrity sha512-7oeyW4hulyK3p4eB63Rsllo/es83xflCAt2HMWCpH2q0fi21iJBR02kK3wCPM/yFwi3i0K83W+UksLFQdE0CaQ==
+relay-hooks@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/relay-hooks/-/relay-hooks-9.0.0.tgz#3ee7f9e9b6de7c3440e2ca7d1c3ef3ddfcb0fb68"
+  integrity sha512-c0Pjnt8l+RFWFXBtRbQlp5FEo7jUEF9ESSJ0B3uz9s0EkW7n3+R+4OXusprmvZPaOPACISmd/yZlL88/wzQGmQ==
   dependencies:
-    "@babel/runtime" "^7.0.0"
-    fbjs "^3.0.0"
-
-relay-runtime@11.0.2:
-  version "11.0.2"
-  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-11.0.2.tgz#c3650477d45665b9628b852b35f203e361ad55e8"
-  integrity sha512-xxZkIRnL8kNE1cxmwDXX8P+wSeWLR+0ACFyAiAhvfWWAyjXb+bhjJ2FSsRGlNYfkqaTNEuDqpnodQV1/fF7Idw==
-  dependencies:
-    "@babel/runtime" "^7.0.0"
-    fbjs "^3.0.0"
-    invariant "^2.2.4"
+    "@restart/hooks" "^0.4.9"
+    fbjs "^3.0.2"
 
 relay-runtime@12.0.0:
   version "12.0.0"
@@ -15025,6 +15112,15 @@ relay-runtime@12.0.0:
   dependencies:
     "@babel/runtime" "^7.0.0"
     fbjs "^3.0.0"
+    invariant "^2.2.4"
+
+relay-runtime@13.2.0, relay-runtime@^13:
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-13.2.0.tgz#e587e8c5cc9decdacb11227425bfe9cd5d9fa36f"
+  integrity sha512-iDS/fy5iWg9EhySaPpeo4Fwy1cYwNJqLHdhdGncpJBtSogFFd3fI+K0SafUoxX7+Moj6a+aMQt/JKN78HdeLhA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    fbjs "^3.0.2"
     invariant "^2.2.4"
 
 remark-mdx@^2.0.0-next.4:
@@ -15206,6 +15302,11 @@ resolve-from@5.0.0, resolve-from@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-5.0.0.tgz#c35225843df8f776df21c57557bc087e9dfdfc69"
   integrity sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==
+
+resolve-from@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
+  integrity sha512-GnlH6vxLymXJNMBo7XP1fJIzBFbdYt49CuTwmB/6N53t+kMPRMFKz783LlQ4tv28XoQfMWinAJX6WCGf2IlaIw==
 
 resolve-from@^4.0.0:
   version "4.0.0"
@@ -16818,6 +16919,11 @@ ua-parser-js@^0.7.24, ua-parser-js@^0.7.30:
   version "0.7.31"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.31.tgz#649a656b191dffab4f21d5e053e27ca17cbff5c6"
   integrity sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ==
+
+ua-parser-js@^1.0.35:
+  version "1.0.38"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.38.tgz#66bb0c4c0e322fe48edfe6d446df6042e62f25e2"
+  integrity sha512-Aq5ppTOfvrCMgAPneW1HfWj66Xi7XL+/mIy996R1/CLS/rcyJQm6QZdsKrUeivDFQ+Oc9Wyuwor8Ze8peEoUoQ==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
