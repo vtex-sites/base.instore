@@ -3945,10 +3945,10 @@
     lint "^0.8.19"
     msk "^1.0.5"
 
-"@vtexlab/gatsby-plugin-federation@3.0.5":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-federation/-/gatsby-plugin-federation-3.0.5.tgz#129f3ee9ad2006ff26acf211a7ddbc19c37c7aef"
-  integrity sha512-Wd8zXAFbovIPQ7UxgictebeJtXM1lhaS43m3x0dw3OWrcALguymQXucp0qb5sZt9yEG0uCOU+uyUGiNOvLw5HA==
+"@vtexlab/gatsby-plugin-federation@3.1.2":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-federation/-/gatsby-plugin-federation-3.1.2.tgz#d67fc8c0649be446e8038bd22db76b2f36f0cd5e"
+  integrity sha512-yMUJwz3z7Kw70b9+Xh3Lz1CB5dwN2YWd+LN7ULG8vywTjejD0Z+P30ITpLFqoUowgtSCFTS/5ocwbun1+jaWCw==
   dependencies:
     "@module-federation/node" "0.11.1"
     external-remotes-plugin "1.0.0"
@@ -3961,10 +3961,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.2.0.tgz#1e0a3b816a74f552b44386a7e7a16aaad34eb11f"
-  integrity sha512-n7rmBkhgFxZsd68CVn+bOS7p2W0JBbHdlzmONRA48yk6BcnUYxen8B3wlMcSOf2AZC4MfUq0vIVX+KuX8VFo4A==
+"@vtexlab/gatsby-theme-instore-core@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.3.0.tgz#f54b3a39c982ca587ec37db1c8507c43eb869fb9"
+  integrity sha512-K4i75LdrS1b6OmTtPfw9o7tgIS8H/oCxvm+icZdvzVqVlWuhXshzl12iDkE6wHBx3Z9Mq/2YV0b/7NxgdCd3+w==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3993,7 +3993,7 @@
     "@vtex/pickup-points-modal" "^1.1.15"
     "@vtex/styleguide" "^9.145.0"
     "@vtexlab/assisted-sales-localization" "3.0.5"
-    "@vtexlab/gatsby-plugin-federation" "3.0.5"
+    "@vtexlab/gatsby-plugin-federation" "3.1.2"
     "@vtexlab/gatsby-plugin-instore-nginx" "3.0.5"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/scheduled-delivery" "^1.0.2"
