@@ -3937,10 +3937,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/assisted-sales-localization@3.4.2":
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-3.4.2.tgz#f9e10cb283dfc09882a2ddf0beef23b7bd35b9d2"
-  integrity sha512-qFakHGe+8yi2rvbcMU69e1ot9mHq9/oGMdMGXaenjeHX3qIdULMtHx62hZzMNOm97m40rUbjzk0ceyvT9NRWtg==
+"@vtexlab/assisted-sales-localization@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-3.4.3.tgz#69bffa9c05d37f8c44bbcf4f38b6f0da489ecaf3"
+  integrity sha512-nitKcqwP81MaRRy0lmfbtDXkcwkSDt+1F72NI55W91J5xK0KX4Gh01R9nVYfZgJKosagfkdDlCB2V2hdOJMwUw==
   dependencies:
     lint "^0.8.19"
     msk "^1.0.5"
@@ -3961,10 +3961,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.4.2":
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.4.2.tgz#080ab689adfd096bd9150c0b7ce7042a98a3f956"
-  integrity sha512-Pi8SqBvGkUnAs46v5COgSJ+Z6z1BCJoapjSA+EB0iyMU8opJbejMYXppVUr3FkI564B/z6qXTLnBdVxYfh4INg==
+"@vtexlab/gatsby-theme-instore-core@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.4.3.tgz#5698273c8158bc6f80ccf7290a78f2100b2af987"
+  integrity sha512-5QGprgKNr3kWrS7Vnuq/qaQstacCwb9hixP3ThnRcg12QKpMyQuMZA6x5xa2uBW4t+7t3VxGXzcm7uzW0yZ9GQ==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3992,7 +3992,7 @@
     "@vtex/phone" "^4.17.11"
     "@vtex/pickup-points-modal" "^1.1.15"
     "@vtex/styleguide" "^9.145.0"
-    "@vtexlab/assisted-sales-localization" "3.4.2"
+    "@vtexlab/assisted-sales-localization" "3.4.3"
     "@vtexlab/gatsby-plugin-federation" "3.1.2"
     "@vtexlab/gatsby-plugin-instore-nginx" "3.0.5"
     "@vtexlab/instore-profile" "2.9.6"
@@ -4099,7 +4099,6 @@
     use-sync-external-store "^1.2.0"
     util "^0.12.4"
     uuid "^8.3.2"
-    validator "^13.12.0"
     vtex-tachyons "^3.2.2"
     vtex.styleguide "npm:@vtex/styleguide@9.138.3"
     whatwg-fetch "^3.6.2"
@@ -17353,11 +17352,6 @@ valid-url@1.0.9:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/valid-url/-/valid-url-1.0.9.tgz#1c14479b40f1397a75782f115e4086447433a200"
   integrity sha1-HBRHm0DxOXp1eC8RXkCGRHQzogA=
-
-validator@^13.12.0:
-  version "13.12.0"
-  resolved "https://registry.yarnpkg.com/validator/-/validator-13.12.0.tgz#7d78e76ba85504da3fee4fd1922b385914d4b35f"
-  integrity sha512-c1Q0mCiPlgdTVVVIJIrBuxNicYE+t/7oKeI9MWLj3fh/uq2Pxh/3eeWbVZ4OcGW1TUf53At0njHw5SMdA3tmMg==
 
 value-equal@^1.0.1:
   version "1.0.1"
