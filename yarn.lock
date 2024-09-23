@@ -2054,6 +2054,11 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
+"@hookform/error-message@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@hookform/error-message/-/error-message-2.0.1.tgz#6a37419106e13664ad6a29c9dae699ae6cd276b8"
+  integrity sha512-U410sAr92xgxT1idlu9WWOVjndxLdgPUHEB8Schr27C9eh7/xUnITWpCMF93s+lGiG++D4JnbSnrb5A21AdSNg==
+
 "@hookform/resolvers@2.8.8":
   version "2.8.8"
   resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-2.8.8.tgz#17cf806485435877fdafce9f3bee6ff68f7f87b6"
@@ -3961,10 +3966,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.6.0":
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.6.0.tgz#b5bcefaaa151df59efe579220bec4e6f75f8aef9"
-  integrity sha512-rRdMs99Img/aUB7Sg3XVkcU4TYi50ac3mDz1n9UuWMld8IRMmzo6z4yOQTF2RPDDq/uTih3R/eaz9LaLZLZhLQ==
+"@vtexlab/gatsby-theme-instore-core@3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.7.0.tgz#526a212403209199293328675248cda5bbc30c52"
+  integrity sha512-jCOcX0Q6e7j8d4nCQKFZ2jBWaFQihpoZ+3U2UzhxdPm08q7PSFb0jSriTOP6GxkOztCAbWrwY7BDmC1uAN+yAg==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3973,6 +3978,7 @@
     "@formatjs/intl-pluralrules" "5.2.14"
     "@formatjs/intl-relativetimeformat" "11.2.14"
     "@fullstory/browser" "^1.4.5"
+    "@hookform/error-message" "^2.0.1"
     "@openfeature/launchdarkly-client-provider" "^0.2.0"
     "@openfeature/web-sdk" "^0.4.0"
     "@opentelemetry/semantic-conventions" "^1.13.0"
@@ -4061,7 +4067,7 @@
     react-dom "^17.0.2"
     react-flip-move "^3.0.2"
     react-helmet "^6.1.0"
-    react-hook-form "^6.15.4"
+    react-hook-form "^6"
     react-hot-loader "^4.13.0"
     react-id-swiper "^1.6.2"
     react-intl "^5.15.8"
@@ -14327,7 +14333,7 @@ react-hook-form@7.21.0:
   resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.21.0.tgz#f6f0311295b83ca768873ca9f2a787ff1525f591"
   integrity sha512-aekCf+dedYFIg+7nCK2acMvZ+s6Ohw2I7UNQ+zNIadBl1SoXow2Tl6c3F49xF8GFCdn5jeK43JHH26rmtdRyLQ==
 
-react-hook-form@^6.15.4:
+react-hook-form@^6:
   version "6.15.8"
   resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-6.15.8.tgz#725c139d308c431c4611e4b9d85a49f01cfc0e7a"
   integrity sha512-prq82ofMbnRyj5wqDe8hsTRcdR25jQ+B8KtCS7BLCzjFHAwNuCjRwzPuP4eYLsEBjEIeYd6try+pdLdw0kPkpg==
