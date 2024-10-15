@@ -3950,10 +3950,10 @@
     lint "^0.8.19"
     msk "^1.0.5"
 
-"@vtexlab/gatsby-plugin-federation@3.1.2":
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-federation/-/gatsby-plugin-federation-3.1.2.tgz#d67fc8c0649be446e8038bd22db76b2f36f0cd5e"
-  integrity sha512-yMUJwz3z7Kw70b9+Xh3Lz1CB5dwN2YWd+LN7ULG8vywTjejD0Z+P30ITpLFqoUowgtSCFTS/5ocwbun1+jaWCw==
+"@vtexlab/gatsby-plugin-federation@3.10.1":
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-federation/-/gatsby-plugin-federation-3.10.1.tgz#b85906ae22fe541791271a6ce664063a0300692f"
+  integrity sha512-Ns4wkH+bkR90zkRh3TO8ki/Ns9fm8R5CzVOB1RSjNgn63+8d16tel0r1tiIF6+P7rqJQT+dQGdsZaLc0AU/fJg==
   dependencies:
     "@module-federation/node" "0.11.1"
     external-remotes-plugin "1.0.0"
@@ -3966,10 +3966,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.9.6":
-  version "3.9.6"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.9.6.tgz#4c3106a8990117e512ce9372e3e7714f6f90bf3f"
-  integrity sha512-HUk0m2nIwni3mHVt/+OFuZMmfd+AOdMaZqRODf0iEsq4Hlc5O2oqQTN9jUCmrwRI/FUhNYdrPaGbsqiPIs7o3Q==
+"@vtexlab/gatsby-theme-instore-core@3.10.1":
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.10.1.tgz#d261047d74b0a338b97cb5a8dacfee1616fe80fb"
+  integrity sha512-S7UatyQJvo/2Ucd5Ndoo6B1ER/QYgvDopI/dtnOPP1pab+ocaSjkMs7s1NT6GIJjT10fqw7DCxzyJkkIUqRHOw==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3999,7 +3999,7 @@
     "@vtex/pickup-points-modal" "^1.1.15"
     "@vtex/styleguide" "^9.145.0"
     "@vtexlab/assisted-sales-localization" "3.4.3"
-    "@vtexlab/gatsby-plugin-federation" "3.1.2"
+    "@vtexlab/gatsby-plugin-federation" "3.10.1"
     "@vtexlab/gatsby-plugin-instore-nginx" "3.0.5"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/scheduled-delivery" "^1.0.2"
