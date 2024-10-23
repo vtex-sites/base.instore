@@ -3950,10 +3950,10 @@
     lint "^0.8.19"
     msk "^1.0.5"
 
-"@vtexlab/gatsby-plugin-federation@3.10.1":
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-federation/-/gatsby-plugin-federation-3.10.1.tgz#b85906ae22fe541791271a6ce664063a0300692f"
-  integrity sha512-Ns4wkH+bkR90zkRh3TO8ki/Ns9fm8R5CzVOB1RSjNgn63+8d16tel0r1tiIF6+P7rqJQT+dQGdsZaLc0AU/fJg==
+"@vtexlab/gatsby-plugin-federation@3.11.0":
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-federation/-/gatsby-plugin-federation-3.11.0.tgz#57cf44095906db08c2647db8636cc3b73edb3733"
+  integrity sha512-bpOob7tgPcmHAKYwZZa/OTsrlc983x5mpVjYIVw9UzJ+lL9qYQdnMMa8BZjkETAsmFHV08X2XzP5TokBxPnbNw==
   dependencies:
     "@module-federation/node" "0.11.1"
     external-remotes-plugin "1.0.0"
@@ -3966,10 +3966,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.10.2":
-  version "3.10.2"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.10.2.tgz#b3fba649f0ca8a31646480064c09b0b3bf7990a5"
-  integrity sha512-QiIak1+AsIKbZFVo2fvn8DpWKkzOqUCxbyv4OkTW0dhpKFSjheYOOtOjZ4OyuES3yDm6CkdqyRUFsF+jG+EUQQ==
+"@vtexlab/gatsby-theme-instore-core@3.11.0":
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.11.0.tgz#f078e103698eb29a1ec0c9744c8bad56365c395b"
+  integrity sha512-WTgzgkFMIMc08bSo8OdeijdoMNd7sBSaE8y4ioT1k3yFe4CPAAAHTXhTVrcVE7ipDOrT47Ctlh5o9lDaBxK27w==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3999,7 +3999,7 @@
     "@vtex/pickup-points-modal" "^1.1.15"
     "@vtex/styleguide" "^9.145.0"
     "@vtexlab/assisted-sales-localization" "3.10.2"
-    "@vtexlab/gatsby-plugin-federation" "3.10.1"
+    "@vtexlab/gatsby-plugin-federation" "3.11.0"
     "@vtexlab/gatsby-plugin-instore-nginx" "3.0.5"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/scheduled-delivery" "^1.0.2"
