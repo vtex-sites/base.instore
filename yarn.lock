@@ -3966,10 +3966,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.11.12":
-  version "3.11.12"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.11.12.tgz#eba5eaa52104efec1861f10e250040e144dc9d35"
-  integrity sha512-mlnvWex0kSFh7fSJ4u3/1qZO7LAKEx4wA78uaP0Nqp4YVAiZYEfs7ZevlrfR7ML8SC0PuCLgryEleSvPpVjkGg==
+"@vtexlab/gatsby-theme-instore-core@3.11.13":
+  version "3.11.13"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.11.13.tgz#44762608e8f56f8e17564b7db82827e6e3f65e7e"
+  integrity sha512-8uZDzS9o9+z/JXuUkNo4hDx526266PH2FRGYJXQo49KYNX9XoWp0G9kicDeH+yOyKfgTGqAfB3wSs8VCE30fvQ==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -4066,6 +4066,7 @@
     react-dnd-touch-backend "^14.0.0"
     react-dom "^17.0.2"
     react-flip-move "^3.0.2"
+    react-google-recaptcha-v3 "^1.10.1"
     react-helmet "^6.1.0"
     react-hook-form "^6"
     react-hot-loader "^4.13.0"
@@ -14317,6 +14318,13 @@ react-flip-move@^3.0.2:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-flip-move/-/react-flip-move-3.0.4.tgz#261f66101fbc305f9b7b28959c5cf8236413ca74"
   integrity sha512-HyUVv9g3t/BS7Yz9HgrtYSWyRNdR2F81nkj+C5iRY675AwlqCLB5JU9mnZWg0cdVz7IM4iquoyZx70vzZv3Z8Q==
+
+react-google-recaptcha-v3@^1.10.1:
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/react-google-recaptcha-v3/-/react-google-recaptcha-v3-1.10.1.tgz#5b125bc0dec123206431860e8800e188fc735aff"
+  integrity sha512-K3AYzSE0SasTn+XvV2tq+6YaxM+zQypk9rbCgG4OVUt7Rh4ze9basIKefoBz9sC0CNslJj9N1uwTTgRMJQbQJQ==
+  dependencies:
+    hoist-non-react-statics "^3.3.2"
 
 react-helmet@6.1.0, react-helmet@^6.1.0:
   version "6.1.0"
