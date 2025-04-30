@@ -1,7 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "encrypted": {
-    "npmToken": "{{ secrets.NPM_TOKEN }}"
-  },
+  "npmToken": "{{ secrets.NPM_TOKEN }}",
   "extends": ["vtex-instore-sites"]
 }
