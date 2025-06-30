@@ -2306,19 +2306,17 @@
   resolved "https://registry.yarnpkg.com/@microsoft/fetch-event-source/-/fetch-event-source-2.0.1.tgz#9ceecc94b49fbaa15666e38ae8587f64acce007d"
   integrity sha512-W6CLUJ2eBMw3Rec70qrsEW0jOm/3twwJv21mrmj2yORiaVmVYGS4sSS5yUwvQc1ZlDLYGPnClVWmUUMagKNsfA==
 
-"@module-federation/node@0.11.1":
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/@module-federation/node/-/node-0.11.1.tgz#5e1d5717fba25570b5d51d70200676ba52e89f0b"
-  integrity sha512-xkGp6TvpeJcDAXjqRruqxZEz855QjughB+I6cgAbO8uuSe7W58vYGEdkRKaJP8RSoqukM969jBVQjBGZQW5ojA==
-  dependencies:
-    "@module-federation/utilities" "1.3.0"
-    encoding "0.1.13"
-    node-fetch "2.6.7"
+"@module-federation/sdk@0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@module-federation/sdk/-/sdk-0.15.0.tgz#31e0b1e443e9e5761345e298ba5e49eab273e51d"
+  integrity sha512-PWiYbGcJrKUD6JZiEPihrXhV3bgXdll4bV7rU+opV7tHaun+Z0CdcawjZ82Xnpb8MCPGmqHwa1MPFeUs66zksw==
 
-"@module-federation/utilities@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@module-federation/utilities/-/utilities-1.3.0.tgz#018071b630cb000f79397ad458bfd7d4dd9104fe"
-  integrity sha512-GGSuC0t5BsoXa58dSiP8MxXItMixWT5FbzWMndhtqLQMmJVdLpVFROiIH4eKXpfjOkKViRri7CfQ8MaNUn8JqQ==
+"@module-federation/utilities@^3.1.59":
+  version "3.1.59"
+  resolved "https://registry.yarnpkg.com/@module-federation/utilities/-/utilities-3.1.59.tgz#c3b90aae26121d462ad64ea3a3439f1641b3fc1a"
+  integrity sha512-nklaoXOmcZUOeHiimUtNsidxyDkGwJ6iDOTn1eQAJseTf6CD1ke08FDcrfGK10NnFFFU1Ha7gI/NReWAvP5SPQ==
+  dependencies:
+    "@module-federation/sdk" "0.15.0"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -3955,14 +3953,6 @@
     lint "^0.8.19"
     msk "^1.0.5"
 
-"@vtexlab/gatsby-plugin-federation@3.11.0":
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-federation/-/gatsby-plugin-federation-3.11.0.tgz#57cf44095906db08c2647db8636cc3b73edb3733"
-  integrity sha512-bpOob7tgPcmHAKYwZZa/OTsrlc983x5mpVjYIVw9UzJ+lL9qYQdnMMa8BZjkETAsmFHV08X2XzP5TokBxPnbNw==
-  dependencies:
-    "@module-federation/node" "0.11.1"
-    external-remotes-plugin "1.0.0"
-
 "@vtexlab/gatsby-plugin-instore-nginx@3.0.5":
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-instore-nginx/-/gatsby-plugin-instore-nginx-3.0.5.tgz#4cc06b4dcd24336af3efebd019eb0d353b8ddefb"
@@ -3971,10 +3961,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.30.1":
-  version "3.30.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.30.1.tgz#5baf1145fa628a560f9660fdcb376906925607fb"
-  integrity sha512-Dnb1e313Vl61gNdMbA9E/eX/nsEP8llUYolQl+AbVIY1aMZShqp6wtoeTvUYjEhPVNNGwDbH9uuLMCsJiO7mlg==
+"@vtexlab/gatsby-theme-instore-core@3.31.0":
+  version "3.31.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.31.0.tgz#458d03e260223daf9d875ec7a2371d8fb372db9a"
+  integrity sha512-G2h1/oj12tKgS/46XAXsfZHZiOyribfKCVIv82by2psVX1I3+b/161ZDJkISwVhr0KIXsNks1Nj+5ZGRhmc1LQ==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3985,6 +3975,7 @@
     "@formatjs/intl-relativetimeformat" "11.2.14"
     "@fullstory/browser" "^1.4.5"
     "@hookform/error-message" "^2.0.1"
+    "@module-federation/utilities" "^3.1.59"
     "@openfeature/launchdarkly-client-provider" "^0.2.0"
     "@openfeature/web-sdk" "^0.4.0"
     "@opentelemetry/semantic-conventions" "^1.13.0"
@@ -4005,7 +3996,6 @@
     "@vtex/pickup-points-modal" "^1.1.15"
     "@vtex/styleguide" "^9.145.0"
     "@vtexlab/assisted-sales-localization" "3.29.1"
-    "@vtexlab/gatsby-plugin-federation" "3.11.0"
     "@vtexlab/gatsby-plugin-instore-nginx" "3.0.5"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/scheduled-delivery" "^1.0.2"
@@ -7476,7 +7466,7 @@ encodeurl@~1.0.2:
   resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
 
-encoding@0.1.13, encoding@^0.1.11:
+encoding@^0.1.11:
   version "0.1.13"
   resolved "https://registry.yarnpkg.com/encoding/-/encoding-0.1.13.tgz#56574afdd791f54a8e9b2785c0582a2d26210fa9"
   integrity sha512-ETBauow1T35Y/WZMkio9jiM0Z5xjHHmJ4XmjZOq1l/dXz3lr2sRn87nJy20RupqSh1F2m3HHPSp8ShIPQJrJ3A==
@@ -8226,13 +8216,6 @@ external-editor@^3.0.3:
     chardet "^0.7.0"
     iconv-lite "^0.4.24"
     tmp "^0.0.33"
-
-external-remotes-plugin@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/external-remotes-plugin/-/external-remotes-plugin-1.0.0.tgz#2ad8ecad6cba28f6e0fd7bccf8536aeda1297b20"
-  integrity sha512-19cfGfzmPMXkRNpyqOHgndNB07vjk1G1V7IuyixBw8Z1QTc/IOhINy9TbWzDRPTmj64e3STTI1MJE0gI58p7YA==
-  dependencies:
-    webpack-sources "^2.2.0"
 
 extglob@^2.0.4:
   version "2.0.4"
@@ -15919,7 +15902,7 @@ sonic-boom@^3.1.0:
   dependencies:
     atomic-sleep "^1.0.0"
 
-source-list-map@^2.0.0, source-list-map@^2.0.1:
+source-list-map@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw==
@@ -17559,14 +17542,6 @@ webpack-sources@^1.0, webpack-sources@^1.1.0:
   dependencies:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
-
-webpack-sources@^2.2.0:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-2.3.1.tgz#570de0af163949fe272233c2cefe1b56f74511fd"
-  integrity sha512-y9EI9AO42JjEcrTJFOYmVywVZdKVUfOvDUPsJea5GIr1JOEGFVqwlY2K098fFoIjOkDzHn2AjRvM8dsBZu+gCA==
-  dependencies:
-    source-list-map "^2.0.1"
-    source-map "^0.6.1"
 
 webpack-sources@^3.2.3:
   version "3.2.3"
