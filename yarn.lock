@@ -3945,10 +3945,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/assisted-sales-localization@3.29.1":
-  version "3.29.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-3.29.1.tgz#d00e1dc26c1a796c9479659c5942314aeb0c5669"
-  integrity sha512-7rQdrgSVDFb/KCj1SyzEDZEx9UZ48nMyzCPdnGSVBD+X47Ivz+mg8YO4BhWRzePP+IfzJkXGPM3/hcC/ftdK4w==
+"@vtexlab/assisted-sales-localization@3.32.0":
+  version "3.32.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-3.32.0.tgz#532b5b1c04a6ae6a26302ac23c4aab9fc51f3aa4"
+  integrity sha512-aMZ9kSGl8ekoM7Olu6r1Gi8ckHXD3oDOvlMVBNl4pbEtYf4S3kOLHgq3woG5wHm/VFJE15tbYDxUY2fvg0R9mQ==
   dependencies:
     lint "^0.8.19"
     msk "^1.0.5"
@@ -3961,10 +3961,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.31.9":
-  version "3.31.9"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.31.9.tgz#bc52808857739ffb0b6fb092bdc7b7366f053c39"
-  integrity sha512-VxMWJQ9XlEbPa4UL8oRARclqOE7GYPINsw6iiG3rSI7gjK8ufoK4MhlPC3LVMREiJzGtgFd72zlu127N/bhsuw==
+"@vtexlab/gatsby-theme-instore-core@3.32.0":
+  version "3.32.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.32.0.tgz#ab2c4d8cb26aff34d900dac9079d3e95956c4ec9"
+  integrity sha512-n9AR9jeGqH1T3ogUAXoYN4pSVbUNkaJmgARGYUdvIY3UZAOznz1f4qxTGfXSav7xLfXw7jkoPMrovfIDKEVwEw==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3995,7 +3995,7 @@
     "@vtex/phone" "^4.17.11"
     "@vtex/pickup-points-modal" "^1.1.15"
     "@vtex/styleguide" "^9.145.0"
-    "@vtexlab/assisted-sales-localization" "3.29.1"
+    "@vtexlab/assisted-sales-localization" "3.32.0"
     "@vtexlab/gatsby-plugin-instore-nginx" "3.0.5"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/scheduled-delivery" "^1.0.2"
@@ -4010,7 +4010,6 @@
     clean-css "^4.2.3"
     connected-react-router "6.9.2"
     core-js "3.9.1"
-    country-data "^0.0.31"
     crypto-browserify "^3.12.0"
     dexie "^3.2.4"
     event-emitter "^0.3.5"
@@ -4032,6 +4031,7 @@
     http-proxy-middleware "^1.0.6"
     http-status-codes "^2.1.4"
     https-browserify "^1.0.0"
+    i18n-iso-countries "^7.14.0"
     intl "^1.2.5"
     intl-locales-supported "^1.0.0"
     jquery-param "^1.0.1"
@@ -6397,14 +6397,6 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-country-data@^0.0.31:
-  version "0.0.31"
-  resolved "https://registry.yarnpkg.com/country-data/-/country-data-0.0.31.tgz#80966b8e1d147fa6d6a589d32933f8793774956d"
-  integrity sha512-YqlY/i6ikZwoBFfdjK+hJTGaBdTgDpXLI15MCj2UsXZ2cPBb+Kx86AXmDH7PRGt0LUleck0cCgNdWeIhfbcxkQ==
-  dependencies:
-    currency-symbol-map "~2"
-    underscore ">1.4.4"
-
 create-ecdh@^4.0.0:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/create-ecdh/-/create-ecdh-4.0.4.tgz#d6e7f4bffa66736085a0762fd3a632684dabcc4e"
@@ -6715,11 +6707,6 @@ csstype@^3.0.2:
   version "3.0.11"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.11.tgz#d66700c5eacfac1940deb4e3ee5642792d85cd33"
   integrity sha512-sa6P2wJ+CAbgyy4KFssIb/JNMLxFvKF1pCYCSXS8ZMuqZnMsrxqI2E5sPyoTpxoPU/gVZMzr2zjOfg8GIZOMsw==
-
-currency-symbol-map@~2:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/currency-symbol-map/-/currency-symbol-map-2.2.0.tgz#2b3c1872ff1ac2ce595d8273e58e1fff0272aea2"
-  integrity sha512-fPZJ3jqM68+AAgqQ7UaGbgHL/39rp6l7GyqS2k1HJPu/kpS8D07x/+Uup6a9tCUKIlOFcRrDCf1qxSt8jnI5BA==
 
 cypress@^7.1.0:
   version "7.7.0"
@@ -7176,6 +7163,11 @@ diacritic@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/diacritic/-/diacritic-0.0.2.tgz#fc2a887b5a5bc0a0a854fb614c7c2f209061ee04"
   integrity sha1-/CqIe1pbwKCoVPthTHwvIJBh7gQ=
+
+diacritics@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/diacritics/-/diacritics-1.3.0.tgz#3efa87323ebb863e6696cebb0082d48ff3d6f7a1"
+  integrity sha512-wlwEkqcsaxvPJML+rDh/2iS824jbREk6DUMUKkEaSlxdYHeS43cClJtsWglvw2RfeXGm6ohKDqsXteJ5sP5enA==
 
 dicer@0.2.5:
   version "0.2.5"
@@ -9926,6 +9918,13 @@ hyphenate-style-name@^1.0.0, hyphenate-style-name@^1.0.2:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz#691879af8e220aea5750e8827db4ef62a54e361d"
   integrity sha512-ygGZLjmXfPHj+ZWh6LwbC37l43MhfztxetbFCoYTM2VjkIUpeHgSNn7QIyVFj7YQ1Wl9Cbw5sholVJPzWvC2MQ==
+
+i18n-iso-countries@^7.14.0:
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/i18n-iso-countries/-/i18n-iso-countries-7.14.0.tgz#cd5ae098198bce1cc40cadbf0a37ce6c8e9d0edf"
+  integrity sha512-nXHJZYtNrfsi1UQbyRqm3Gou431elgLjKl//CYlnBGt5aTWdRPH1PiS2T/p/n8Q8LnqYqzQJik3Q7mkwvLokeg==
+  dependencies:
+    diacritics "1.3.0"
 
 iconv-lite@0.4.24, iconv-lite@^0.4.24:
   version "0.4.24"
@@ -16949,11 +16948,6 @@ uncontrollable@^6.0.0:
   dependencies:
     "@babel/runtime" "^7.4.5"
     invariant "^2.2.4"
-
-underscore@>1.4.4:
-  version "1.13.7"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.7.tgz#970e33963af9a7dda228f17ebe8399e5fbe63a10"
-  integrity sha512-GMXzWtsc57XAtguZgaQViUOzs0KTkk8ojr3/xAxXLITqf/3EMwxC0inyETfDFjH/Krbhuep0HNbbjI9i/q3F3g==
 
 unherit@^1.0.4:
   version "1.1.3"
