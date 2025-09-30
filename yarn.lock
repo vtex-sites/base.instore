@@ -3961,10 +3961,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.37.1":
-  version "3.37.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.37.1.tgz#8ef9609967e9eaaad0677f5f0f82137fa24219b6"
-  integrity sha512-N0xcvdf+s3bQGc6c+gOdOWiSDtVAsjXv2UsfbI3YqsYNgsgl5c62p1RKXy+Xc48tPRrKbsL+q9KqIESdm6Tj0A==
+"@vtexlab/gatsby-theme-instore-core@3.36.7":
+  version "3.36.7"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.36.7.tgz#7745cfd1508c220514d581bb44846b2beaf2fdbc"
+  integrity sha512-2Y6mw4ISS8Bi5F88tVv33RXrs7Y2aCv4dWyFrxTUPVpgWasY9lfap9xI/9FAYP8WcN/iSDFgAwiBMztI9CvtRg==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3999,7 +3999,6 @@
     "@vtexlab/gatsby-plugin-instore-nginx" "3.0.5"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/scheduled-delivery" "^1.0.2"
-    "@xstate/react" "^3"
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
     axios "^0.18.0"
@@ -4106,7 +4105,6 @@
     vtex-tachyons "^3.2.2"
     vtex.styleguide "npm:@vtex/styleguide@9.138.3"
     whatwg-fetch "^3.6.2"
-    xstate "^4"
     yup "^0.32.11"
 
 "@vtexlab/instore-profile@2.9.6":
@@ -4306,14 +4304,6 @@
   dependencies:
     "@wora/cache-persist" "^2.2.1"
     tslib "^1.11.1"
-
-"@xstate/react@^3":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@xstate/react/-/react-3.2.2.tgz#ddf0f9d75e2c19375b1e1b7335e72cb99762aed8"
-  integrity sha512-feghXWLedyq8JeL13yda3XnHPZKwYDN5HPBLykpLeuNpr9178tQd2/3d0NrH6gSd0sG5mLuLeuD+ck830fgzLQ==
-  dependencies:
-    use-isomorphic-layout-effect "^1.1.2"
-    use-sync-external-store "^1.0.0"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -17268,11 +17258,6 @@ use-debounce@^7.0.0:
   resolved "https://registry.yarnpkg.com/use-debounce/-/use-debounce-7.0.1.tgz#380e6191cc13ad29f8e2149a12b5c37cc2891190"
   integrity sha512-fOrzIw2wstbAJuv8PC9Vg4XgwyTLEOdq4y/Z3IhVl8DAE4svRcgyEUvrEXu+BMNgMoc3YND6qLT61kkgEKXh7Q==
 
-use-isomorphic-layout-effect@^1.1.2:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.2.1.tgz#2f11a525628f56424521c748feabc2ffcc962fce"
-  integrity sha512-tpZZ+EX0gaghDAiFR37hj5MgY6ZN55kLiPkJsKxBMZ6GZdOSPJXiOzPM984oPYZ5AnehYx5WQp1+ME8I/P/pRA==
-
 use-media@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/use-media/-/use-media-1.4.0.tgz#e777bf1f382a7aacabbd1f9ce3da2b62e58b2a98"
@@ -17282,11 +17267,6 @@ use-state-with-callback@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/use-state-with-callback/-/use-state-with-callback-2.0.3.tgz#3be56ca52b6afcfe364e0579749dfe588c47c01f"
   integrity sha512-bJXNAtJZW0xz16GIW54aDbYxRkZa2c8RdoKGQnJqE7GmRdVkZkKQBTR/9vH6T5tZX/7yCIhywE09NyeTQ9EJJQ==
-
-use-sync-external-store@^1.0.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.5.0.tgz#55122e2a3edd2a6c106174c27485e0fd59bcfca0"
-  integrity sha512-Rb46I4cGGVBmjamjphe8L/UnvJD+uPPtTkNvX5mZgqdbavhI4EbgIWJiIHXJ8bc/i9EQGPRh4DwEURJ552Do0A==
 
 use-sync-external-store@^1.2.0:
   version "1.2.0"
@@ -17932,11 +17912,6 @@ xss@^1.0.6:
   dependencies:
     commander "^2.20.3"
     cssfilter "0.0.10"
-
-xstate@^4:
-  version "4.38.3"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.38.3.tgz#4e15e7ad3aa0ca1eea2010548a5379966d8f1075"
-  integrity sha512-SH7nAaaPQx57dx6qvfcIgqKRXIh4L0A1iYEqim4s1u7c9VoCgzZc+63FY90AKU4ZzOC2cfJzTnpO4zK7fCUzzw==
 
 xstate@^4.11.0, xstate@^4.2.2, xstate@^4.9.1:
   version "4.30.6"
