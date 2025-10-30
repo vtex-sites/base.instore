@@ -3953,18 +3953,18 @@
     lint "^0.8.19"
     msk "^1.0.5"
 
-"@vtexlab/gatsby-plugin-instore-nginx@3.0.5":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-instore-nginx/-/gatsby-plugin-instore-nginx-3.0.5.tgz#4cc06b4dcd24336af3efebd019eb0d353b8ddefb"
-  integrity sha512-cAhQJ6Up7QQ43bgmCRumFBXKZMrfJVzPkaWMvnq40R3Uo2O2RcYytJrFbdEJfMVccyDKjV8z5bHLU0GGGzDkgQ==
+"@vtexlab/gatsby-plugin-instore-nginx@3.39.4":
+  version "3.39.4"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-instore-nginx/-/gatsby-plugin-instore-nginx-3.39.4.tgz#9952b85de34b362b96ed1a455675cc82aa66de5e"
+  integrity sha512-BROrDlKVRLMLNIsaKKyqUYbco/9b8spsjK/uo+xE88isZ7DpPft4UZdL88BqJepdeKJixT0U5jPShX3DuaCjfQ==
   dependencies:
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.39.3":
-  version "3.39.3"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.39.3.tgz#20aec50f06d4f2bfb54bbb512add6d4fe21afe08"
-  integrity sha512-2XklWT0gWsPcN5PUY63M+w4JnPQpe5XtCUTGm9ULQGxZVXTUHuO4z/1xd9mOszQ27Bbz0pOPp+W05Facnp8fiQ==
+"@vtexlab/gatsby-theme-instore-core@3.39.4":
+  version "3.39.4"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.39.4.tgz#ecdf8443d81da5ce67b4e99dc66762bb4d54e105"
+  integrity sha512-NSqsJStR24mj9TJazlYfn4w3NjW74Pe49bJ9BK8yV4Pzr691zRw13PecOIM/9rfb5+x4V76Lbm/tGcKGbl2xsw==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3996,7 +3996,7 @@
     "@vtex/pickup-points-modal" "^1.1.15"
     "@vtex/styleguide" "^9.145.0"
     "@vtexlab/assisted-sales-localization" "3.39.3"
-    "@vtexlab/gatsby-plugin-instore-nginx" "3.0.5"
+    "@vtexlab/gatsby-plugin-instore-nginx" "3.39.4"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/scheduled-delivery" "^1.0.2"
     "@xstate/react" "^3"
