@@ -1,5 +1,1 @@
-module.exports = {
-    experimental: {
-        nodeVersion: 14,
-    }
-  }
+module.exports = {}
