@@ -4435,10 +4435,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/assisted-sales-localization@3.50.0":
-  version "3.50.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-3.50.0.tgz#c0d8e9fa05ef495e2e48da9c614e214ff9da680a"
-  integrity sha512-o2Oi6D5FWFx6nrPAtjoaBI0tkbuqAHxZs/+bbIYQUGqLKtJKxxdQWKX0ebnk6sdANVRu02W9cFRiLL3uOT89CQ==
+"@vtexlab/assisted-sales-localization@3.53.3":
+  version "3.53.3"
+  resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-3.53.3.tgz#f0719b4a8a0b4ce09a1113697918d1208e4009e2"
+  integrity sha512-MnRoro6T7YptROn4LxxK0ewy9xCPAGhXiz8pWWCwlVBvh87LGtBJXPwOIE4PqVZdlUhDOdE0Vv+N5qVX8KOm+g==
   dependencies:
     lint "^0.8.19"
     msk "^1.0.5"
@@ -4451,10 +4451,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.53.1":
-  version "3.53.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.53.1.tgz#a8abad83f38c83f5d46fdc704e45bb2c05e2a075"
-  integrity sha512-LCtHqBmq+/aix+VuB0AiRgV3xAniY+MyFVRElkMYPHMUDH5b5ILcBok2Qr6lx43QAilW80QEf75i6btJcRdXnQ==
+"@vtexlab/gatsby-theme-instore-core@3.53.3":
+  version "3.53.3"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.53.3.tgz#1b3c63627ed3b47981c3ff74998ca5092c95d048"
+  integrity sha512-OgMEMRzHfp5hGxtNzv1Dbx4A3umBxQ9tfj5Dqbu3DXrrEgOFEZQOlJQ6yivmEK9gBVc3/bFhymEbIIdXynU1OQ==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -4485,7 +4485,7 @@
     "@vtex/phone" "^4.17.11"
     "@vtex/pickup-points-modal" "^1.1.15"
     "@vtex/styleguide" "^9.145.0"
-    "@vtexlab/assisted-sales-localization" "3.50.0"
+    "@vtexlab/assisted-sales-localization" "3.53.3"
     "@vtexlab/gatsby-plugin-instore-nginx" "3.50.0"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/scheduled-delivery" "^1.0.2"
