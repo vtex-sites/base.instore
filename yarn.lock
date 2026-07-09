@@ -2574,7 +2574,7 @@
   resolved "https://registry.yarnpkg.com/@module-federation/sdk/-/sdk-0.15.0.tgz#31e0b1e443e9e5761345e298ba5e49eab273e51d"
   integrity sha512-PWiYbGcJrKUD6JZiEPihrXhV3bgXdll4bV7rU+opV7tHaun+Z0CdcawjZ82Xnpb8MCPGmqHwa1MPFeUs66zksw==
 
-"@module-federation/utilities@^3.1.59":
+"@module-federation/utilities@3.1.59":
   version "3.1.59"
   resolved "https://registry.yarnpkg.com/@module-federation/utilities/-/utilities-3.1.59.tgz#c3b90aae26121d462ad64ea3a3439f1641b3fc1a"
   integrity sha512-nklaoXOmcZUOeHiimUtNsidxyDkGwJ6iDOTn1eQAJseTf6CD1ke08FDcrfGK10NnFFFU1Ha7gI/NReWAvP5SPQ==
@@ -4451,10 +4451,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.53.6":
-  version "3.53.6"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.53.6.tgz#6bb801029f7cbb43aab80196de483dda767b0cad"
-  integrity sha512-tgAKFtgJ0QulORnjitnzbG3XZn1EFsJR5YLxpsah0lZvjfbaLTBck8x5u7dFYZT6InbZ7T3GaysuESfx7dA5hg==
+"@vtexlab/gatsby-theme-instore-core@3.53.7":
+  version "3.53.7"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.53.7.tgz#106c17101b8936194df338b90ae76db5b7bb7de7"
+  integrity sha512-TgLYWrfQlnvId77t3EfLnJ5Ith+gzf0h/dz0dPJGwgjYqdwgjcV+x31PkTtDTE/XFiR1y2SNdhf1MPI3ALSDeA==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -4465,7 +4465,7 @@
     "@formatjs/intl-relativetimeformat" "11.2.14"
     "@fullstory/browser" "^1.4.5"
     "@hookform/error-message" "^2.0.1"
-    "@module-federation/utilities" "^3.1.59"
+    "@module-federation/utilities" "3.1.59"
     "@openfeature/core" "^1.9.2"
     "@openfeature/launchdarkly-client-provider" "^0.3.3"
     "@openfeature/web-sdk" "^1.7.3"
